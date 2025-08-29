@@ -110,25 +110,20 @@ Some verbs require another argument to convey different meaning. For example, th
 Some words in Bicol have synonimous counterpart that is typically used by its speakers to indicate irration, angriness, or intense emotion. This is called \textbf{angry register} and it is a unique trait of the Bicol language. In the game, these words have stronger effects than the normal ones.
 
 \textbf{Growth:}
-The players need to secure their source of food. Food recruits people and each people brings one \textbf{Insight} to the players. Insights are necessary in recovering native words and in making new words. The larger the allied people, the more words can be made. The needed number of Insights to create words vary.
+The players need to secure their source of food. Food recruits people and each people brings one Insight to the player. Insights are necessary in recovering native words and in making new words. The larger the allied people, the more words can be made. The needed number of Insights to create words vary.
 Concrete nouns require the least amount of Insights. Next are verbs relating to physical movements. Mental verbs like to think has higher Insight requirements than the normal verbs. Abtracts nouns have high Insight requirement as well.
 
-\textbf{Nouns:}
-Every entity in the game has its corresponding nouns. Knowing the nominal names give the players power over that entity. For example, in order to use wood, the player must record the Bicol word kahoy. Nouns reffering to objects have damage attributes. They have varying amount of damage depending on object. For example, sundang has higher damage than tukawan.
-There are also nouns referring to places. These nouns can reclaim building institutions in the game like entering the Bicol word for hospital will give players access to it.
+unlocking the road will enahnce the speed of the player travelling.
 
-Derivation is the process of adding affixes to nouns to create new words. Bicol has several productive ways of doing derivations. Aside from this, players can do neologism. Neologism is where the player creates new word that does not exist in the Bicol language. Doing neologism costs more Insights but sometimes provides additional benefits. It adds more \textbf{prestige} to the language.
-
-\textbf{Verbs:}
-Verbal words give players actions. Learning an action takes time and different actions can have varying needed duration to be learned. Verbs are divided into transitive and intransitive. Transitive verbs require at least two arguments: the actor and the patient; while Intransitive verbs require at least one argument, the actor or the patient.
-
-Conjugation is the adding of affixes to the verb in order to convey mood and aspect.
+Nouns give power over the concept. Verbs provide actions that can be used in combats. Grammar gives buffs like conjugating verbs into imperfective aspect gives continous effect to the action.
 
 \textbf{Defence}
-Defence is an attribute that each institutions or buildings has. The defence increase with the number of native words associated to the institutions.
+Defence is an attribute that each institutions has. The defence increase with the number of native words associated to the institutions.
 
-\textbf{Prestige}
-Prestige is the meter on how strong the language is. Prestige can be increased with the addition of words into the players' language.
+\textbf{Grammar}
+perfective
+imperfective
+contemplative
 
 
 

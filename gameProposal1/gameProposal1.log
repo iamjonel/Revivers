@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  29 AUG 2025 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  30 AUG 2025 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,18 +470,18 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [3]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-01.
+06.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 201.
+(Font)              <10.95> on input line 206.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 201.
+(Font)              <8> on input line 206.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 201.
+(Font)              <6> on input line 206.
 
-Overfull \hbox (67.60223pt too wide) in paragraph at lines 201--202
+Overfull \hbox (67.60223pt too wide) in paragraph at lines 206--207
 []$\T1/cmtt/m/n/10.95 https : / / app . diagrams . net / #Lgame % 20diagrams . 
 drawio # %7B % 22pageId % 22 % 3A % 22Ie5LLhRZTwk1cWGMkZ7P %
  []
@@ -506,11 +506,11 @@ Here is how much of TeX's memory you used:
  30047 multiletter control sequences out of 15000+600000
  574901 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,1012b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,1012b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on gameProposal1//gameProposal1.pdf (5 pages, 255791 bytes).
+Output written on gameProposal1//gameProposal1.pdf (5 pages, 257516 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
