@@ -1,1 +1,1 @@
-currently at draft stage of making the game proposal doc/GDD
+currently at drafting stage of making the game proposal doc/GDD
