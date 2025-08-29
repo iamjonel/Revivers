@@ -1,0 +1,215 @@
+\documentclass[11pt]{article}
+\usepackage{setspace}
+\usepackage{titling}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{ebgaramond}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\alph{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\roman{subsubsection}}
+
+% --- header ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Department of Computer Science \\
+  \rule[-2ex]{0pt}{2ex}Ateneo de Naga University}
+\vspace{5cm}
+\fancyfoot[C]{\thepage}
+
+\setlength{\headheight}{30pt}
+\setlength{\headsep}{20pt}
+
+\begin{document}
+
+% --- cover page ----
+\begin{titlepage}
+  \thispagestyle{fancy}
+
+  \vspace*{4cm}
+  \centering
+    \vfill
+    {\LARGE \textbf{REVITALISE}} \\
+    \vspace{0.5cm}
+    CSMC311 Software Engineering 2 \\
+    Proposal Paper
+    
+    \vfill
+
+    \textbf{Game Designer, Programmer, Project Manager} \\
+    Jonel C. Ganalon -- N2
+
+    \vspace{1cm}
+    
+    \vfill 
+\end{titlepage}
+
+\section{Introduction}
+\subsection{Overview}
+Revitalise is a prospective open-source game revolving around the use of languages to reclaim territories overrun by the foreign language of an invading people. It is a turn-based strategy game similar. The player of the game leads the Insurgents aiming to overthrow the foreign government of their land. These insurgents discovered a powerful way to fight the Imperalists using their lost language. They discovered that everything on their land has an original name used before the Imperials arrived. These original names or true names once spoken by native people grant them power on that concept. However, the Imperialists ruined every source of their native language and compels everyone to use their Imperial language. The role of the player comes into play as someone who still has the knowledge of the lost native language. The player must gather allies and teach the people to remember their native language to bring back parts of their culture, identity, and home.
+
+
+\subsection{Purpose of the Application}
+The game has primary and secondary purposes.
+\subsubsection{Primary Purpose}
+The game provides a platform for documenting languages. The game contains specimens from real-life languages that the player must discover to unlock gameplay elements. Aside from that, players themselves contribute to this purpose by collecting real life words from their chosen language and inputting them into the game. This involves everyone in saving their own languages from possible threats of extinction in the future. This is particularly relevant in the Philippines, where documentation of local languages receives little attention
+
+\subsubsection{Secondary Purpose}
+The secondary purpose provides structure on how one can build vocabulary in doing a posteriori constructed languages.
+
+
+\subsection{Objectives}
+Document at least 200 native words in prototype.
+Implement turn-based mechanics
+
+\subsection{Game Specifics}
+\subsubsection{Game Theme}
+Cultural Preservation/Language Revival
+Education/Learning
+Exploration/Discovery
+Identity/Connection
+\subsubsection{Game Genres}
+Educational
+Adventure
+Role-playing
+\subsubsection{Gameplay and Mechanics}
+For the prototype of the game, since Bicol Naga language will be used, the mechanics of the game will revolve around the features of the Bicol Naga langugae. 
+
+The game will be played on a pre-defined map. Players will start at a specific point in the map. They will find themselves already in the company of the Insurgents. The insurgents will tell their story and will ask the players to help to them free their City. Once confirmed, the interface for monitoring the people of the City and the players's ally, the Insurgents, will appear on the screen. The Insurgents are wanted by the Imperial Police, the players must not get caught by them. The players then need to establish their base by using the power of  native words.  
+
+what will appear:
+food
+number of reclaimed/normal people
+number of Insurgent people \\
+When the player clicked an antity in the game, a window will appear that lets the player choose between the noun class markers of Bicol. This will make the clicked object as an actor, receiver of an action, or a location of an action.\\
+
+The \textbf{si} set of markers:\\
+\textbf{si}: this is used for entities will with personal names such as allies whom the players have given names. This will make the entity the focus of the action. Another usage of \textbf{si} is to refer to entities that has been specified from a given context of conversation. \\
+\textbf{an}: Similar to \textbf{si} but is used for common nouns.\\
+
+The \textbf{ni} set of markers:\\
+\textbf{ni}: This is used to refer to entities with personal names.\\
+\textbf{nin}: This is used to refer to entities that are common or general.\\
+\textbf{kan}: This is used to refer to entities that has been specified from a context of conversation.\\
+
+The \textbf{locative} markers refer to a place or direction of an action.\\
+\textbf{ki}: This is used for entities with personal names.\\
+\textbf{sa}: This is used for entities that has common or general names.\\
+
+At the side panel, list of verbs will appear that the players can use to make an action. Once the players chose an action, a list of possible affixes will show up.
+
+The choices of the players are crucial since this can make an action target the enemy or target themselves or their allies.
+
+Some verbs require another argument to convey different meaning. For example, the verb \textbf{lakaw} can use another argument like \textbf{paduman} in order to convey movement towards something.\\
+
+\textbf{Angry Register:}
+Some words in Bicol have synonimous counterpart that is typically used by its speakers to indicate irration, angriness, or intense emotion. This is called \textbf{angry register} and it is a unique trait of the Bicol language. In the game, these words have stronger effects than the normal ones.
+
+\textbf{Growth:}
+The players need to secure their source of food. Food recruits people and each people brings one Insight to the player. Insights are necessary in recovering native words and in making new words. The larger the allied people, the more words can be made. The needed number of Insights to create words vary.
+Concrete nouns require the least amount of Insights. Next are verbs relating to physical movements. Mental verbs like to think has higher Insight requirements than the normal verbs. Abtracts nouns have high Insight requirement as well.
+
+unlocking the road will enahnce the speed of the player travelling.
+
+Nouns give power over the concept. Verbs provide actions that can be used in combats. Grammar gives buffs like conjugating verbs into imperfective aspect gives continous effect to the action.
+
+\textbf{Defence}
+Defence is an attribute that each institutions has. The defence increase with the number of native words associated to the institutions.
+
+\textbf{Grammar}
+perfective
+imperfective
+contemplative
+
+
+
+
+\subsubsection{Story, Setting, and Character}
+Many years have passed after the language imperalist Nation conquered every country in the world. Many languages have been lost and the rest nears extinction. No one knows how but one day, these lost languages rise from death and gave its people powers to fight against their colonizers. Few people have discovered this and they form the Insurgents. Their aim is to use this power to reclaim their land and push the Imperials away. They then made their goal to revive their lost native language and cultivate this to protect themselves from foreign invaders. 
+
+The game takes place in an alternate simplified version of Naga City, Camarines Sur, Bicol, Philippines. Since the main purpose of the game is to help preserve languages, it will use real-life languages and copy necessary elements from their origin of place.
+
+\textbf{Insurgents} \\
+Insurgents are the allies of the players. They are special people because the players can give them names of profession. Being professionals, they offer higher Insight contribution to the players.
+
+\textbf{Spy}\\
+Spies are Insurgents that can steal the foreign word associated to an institution. Once stolen, the players can use this to translate the word into their native language. There is a punishment to the players when their spies are caught.
+
+\subsubsection{Levels}
+Each institution represents a level. The institutions are associated into one of the eight stages of reviving threantened languages by linguist Fishman.
+
+
+Family Household
+Elementary Schools
+Highschools
+Colleges
+Educational Institutions
+Medical Institutions
+Religious Institutions
+Shopping District
+Market
+Government, Baranggay, City Hall
+
+the player strengthen the claim of each institution by providing words related to each.
+
+\subsubsection{Interface}
+\subsubsection{Map View}
+\subsubsection{Resource Panel}
+\subsubsection{Event and Dialogue Box}
+\subsubsection{Control Panels}
+\subsubsection{Word History}
+\subsubsection{Dictionary}
+\subsubsection{Technology Tree}
+
+
+
+\subsection{Scope and Delimitation}
+The protoype of the game will only include a small portion of Naga City and will only use the Bicol language as the native language that the players can choose. English will also be chosen as the foreign language.
+
+The prototype will not include multiplayer support, setting customisations, large-scale maps.
+
+
+
+\subsection{Target Audience and Platform}
+The game targets people who interests languages may it be as a profession or as a hobby. It also offers itself as a tool to preserve or record real-life languages. Anyone who wants to use their improve their vocabulary on their language and participate in constructing new words can play the game.
+
+The prototype will be made for personal computers.
+
+\subsection{Concept of the Project}
+The game takes inspiration from turn-based tactical games like Freeciv and Civilisation. Instead of building a civilisation, the player must retake an already existing society. Similar to the games mentioned, it will also be possible to expand and dominate other player-controlled section of the map. That is one of the visions of the game --- a multiplayer online tactical game.
+
+The game also adopts the concept of technology tree. 
+
+The concept of the game is based from the model of reviving threatened languages by the lingust Joshua Fishman. The model consist of eight stages of using the language. 
+
+\section{TECHNICAL BACKGROUND}
+The game will be written using C++, SMFL? 2D
+SQL for database
+
+\section{METHODOLOGY}
+\subsection{Development Process}
+\subsection{Development Process}
+The project will adopt an iterative and incremental development process with an emphasis on rapid prototyping. 
+Initial efforts will focus on producing quick, playable prototypes to test the core mechanics of the game such as word recovery, resource management, and turn-based progression. 
+Feedback from these prototypes will inform successive iterations, where additional features and refinements will be implemented in small increments. 
+
+\subsection{Diagrams}
+\url{https://app.diagrams.net/#Lgame%20diagrams.drawio#%7B%22pageId%22%3A%22Ie5LLhRZTwk1cWGMkZ7P%22%7D}
+
+\subsubsection{Use-case Diagram}
+\subsubsection{Activity Diagram}
+\subsubsection{Data Diagram}
+
+
+\subsection{Features and Functionalities}
+\subsubsection{Food}
+
+
+\subsection{Timeline and Development Milestones}
+
+
+\end{document}
