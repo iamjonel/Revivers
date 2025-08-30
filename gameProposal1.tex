@@ -34,7 +34,7 @@
   \vspace*{4cm}
   \centering
     \vfill
-    {\LARGE \textbf{REVITALISE}} \\
+    {\LARGE \textbf{REVIVERS}} \\
     \vspace{0.5cm}
     CSMC311 Software Engineering 2 \\
     Proposal Paper
@@ -51,17 +51,11 @@
 
 \section{Introduction}
 \subsection{Overview}
-Revitalise is a prospective open-source game revolving around the use of languages to reclaim territories overrun by the foreign language of an invading people. It is a turn-based strategy game similar. The player of the game leads the Insurgents aiming to overthrow the foreign government of their land. These insurgents discovered a powerful way to fight the Imperalists using their lost language. They discovered that everything on their land has an original name used before the Imperials arrived. These original names or true names once spoken by native people grant them power on that concept. However, the Imperialists ruined every source of their native language and compels everyone to use their Imperial language. The role of the player comes into play as someone who still has the knowledge of the lost native language. The player must gather allies and teach the people to remember their native language to bring back parts of their culture, identity, and home.
+Revivers is a prospective open-source turn-based strategy game revolving around the use of languages to reclaim territories overrun by foreign people. The players of the game lead the Revivers aiming to overthrow the foreign government, the Imperial Government, occupying their land. Revivers discovered a powerful way to fight the Imperalists using their already lost native language. They discovered that their native language has power over anything on their land. However, the Imperialists ruined every source of their native language and compeled everyone to use their Imperial language instead. The role of the players come into play as those who still have the knowledge of the lost native language. The players must gather allies from the people and help bring back their culture, identity, and home from the foreign occupants.
 
 
 \subsection{Purpose of the Application}
-The game has primary and secondary purposes.
-\subsubsection{Primary Purpose}
-The game provides a platform for documenting languages. The game contains specimens from real-life languages that the player must discover to unlock gameplay elements. Aside from that, players themselves contribute to this purpose by collecting real life words from their chosen language and inputting them into the game. This involves everyone in saving their own languages from possible threats of extinction in the future. This is particularly relevant in the Philippines, where documentation of local languages receives little attention
-
-\subsubsection{Secondary Purpose}
-The secondary purpose provides structure on how one can build vocabulary in doing a posteriori constructed languages.
-
+The game provides a platform for documenting languages. The game contains specimens from real-life languages that the player must discover to unlock gameplay elements. Aside from that, players themselves contribute to this purpose by collecting real life words from their chosen language and inputting them into the game. This involves everyone in saving their own languages from possible threats of extinction in the future. This is particularly relevant in the Philippines, where documentation of local languages receives little attention. Furthermore, the game encourages lexical innovation (a linguistic process where new words of terms enter a language) and touches linguistic purism as it rewards words constructed using neologism.
 
 \subsection{Objectives}
 Document at least 200 native words in prototype.
@@ -69,58 +63,68 @@ Implement turn-based mechanics
 
 \subsection{Game Specifics}
 \subsubsection{Game Theme}
-Cultural Preservation/Language Revival
-Education/Learning
-Exploration/Discovery
-Identity/Connection
+\begin{itemize}
+\item
+  Cultural Preservation/Language Revival
+\item
+  Education/Learning
+\item
+  Exploration/Discovery
+\item
+  Identity/Connection
+\end{itemize}
+
 \subsubsection{Game Genres}
-Educational
-Adventure
-Role-playing
+\begin{itemize}
+\item
+  Educational
+\item
+  Adventure
+\item
+  Role-playing
+\item
+  Turn-Based Strategy
+\end{itemize}
+  
 \subsubsection{Gameplay and Mechanics}
-For the prototype of the game, since Bicol Naga language will be used, the mechanics of the game will revolve around the features of the Bicol Naga langugae. 
+For the prototype of the game, the game will use English as the Imperial language and Bicol Naga as the native language. As the game starts for the first time, it will ask for the username of the players. It will reveal that the players have awaken from a dream. Then, the players' character (MC) will tell the dream to their allies, the Revivers. The MC will then proceed to demonstrate its dream as the gameplay of the game, revealing it as the guidance from the spirit of their lost language. During the game, the players will input Bicol root words into the game storing it in their own dictionary.\\
+The players will play on a pre-defined map adapted from the real-life map of Naga City. The Imperium controls most of the map especially important buildings like Hospitals, Universities, and Governmental ones. There is also the Imperial Police (IP) that patrols around the map and checks every buildings to look for Revivers. The game is turn-based and a turn can be made once the players made an action. Actions require arguments and these are any entities on the game. Actions are basically the verbal roots that the players input into the game and the arguments are the nominal roots that the players input into the game plus the already existing entities on the game's map such as the buildings. Using the words that the players own, they will make sentences that will drive the game.\\
 
-The game will be played on a pre-defined map. Players will start at a specific point in the map. They will find themselves already in the company of the Insurgents. The insurgents will tell their story and will ask the players to help to them free their City. Once confirmed, the interface for monitoring the people of the City and the players's ally, the Insurgents, will appear on the screen. The Insurgents are wanted by the Imperial Police, the players must not get caught by them. The players then need to establish their base by using the power of  native words.
-
-The players have HP and Mana attribute. The Mana attribute is consumed when the players are reciting or using words. 
-
-how to increase hp and mana
-
-When the player clicked an antity in the game, a window will appear that lets the player choose between the noun class markers of Bicol. This will make the clicked object as an actor, receiver of an action, or a location of an action.\\
-
+\textbf{Entity Markers}\\
+Entities refer to objects in the game that are nouns. In order to use these nouns, the players must choose the correct noun markers for them. There are three sets of markers in Bicol: the \textbf{si}-markers, \textbf{ki}-markers, and \textbf{sa-markers}.\\
 The \textbf{si} set of markers:\\
-\textbf{si}: this is used for entities will with personal names such as allies whom the players have given names. This will make the entity the focus of the action. Another usage of \textbf{si} is to refer to entities that has been specified from a given context of conversation. \\
+\textbf{si}: This is used for entities with personal names such as allies whom the players have given names, a Reviver. This will make the entity the focus of the action.
 \textbf{an}: Similar to \textbf{si} but is used for common nouns.\\
-
-The \textbf{ni} set of markers:\\
+The \textbf{ni} set of markers are the non-focus arguments of a verb. They are the following:\\
 \textbf{ni}: This is used to refer to entities with personal names.\\
 \textbf{nin}: This is used to refer to entities that are common or general.\\
-\textbf{kan}: This is used to refer to entities that has been specified from a context of conversation.\\
-
-The \textbf{locative} markers refer to a place or direction of an action.\\
+The \textbf{locative} markers refer to a place or direction of an action. They are the following:\\
 \textbf{ki}: This is used for entities with personal names.\\
 \textbf{sa}: This is used for entities that has common or general names.\\
+Another set of markers also exist. They are the personal pronouns of Bicol.\\
 
-At the side panel, list of verbs will appear that the players can use to make an action. Once the players chose an action, a list of possible affixes will show up.
+\textbf{Action}\\
+Once a marker is chosen for specific entity, it will hover above that entity. The players can then select an action from the verbal roots. After this, the players must correctly conjugate the verb by selecting affixes that marks the \textbf{role} of the focused entity and the \textbf{aspect} of the verb.
+\textbf{-in-}: This affix signify that the role of the focused entity is the receiver or patient of the action.\\
+\textbf{-nag-}: This affix signifiy that the role of the focused entity is the actor of the action.\\
+\textbf{-in-an}: This affix signify that the role of the focused entity is the place of the action.\\
+\textbf{perfective}: This aspect means that the action has been finished. This action only persists at each turn of the player. The action finished once the turn is done.
+\textbf{imperfective}: This aspect means that the action has not yet finished. This action continues up to the next turn in the game.
+\textbf{contemplative}: This aspect means that the action is yet to be done. This action will happen in the next turn of the game.\\
+The choices of the players are crucial since this can make an action target the enemy or target themselves or their allies.\\
 
-The choices of the players are crucial since this can make an action target the enemy or target themselves or their allies.
-
-Some verbs require another argument to convey different meaning. For example, the verb \textbf{lakaw} can use another argument like \textbf{paduman} in order to convey movement towards something.\\
-
-\textbf{Angry Register}\\
-Some words in Bicol have synonimous counterpart that is typically used by its speakers to indicate irration, angriness, or intense emotion. This is called \textbf{angry register} and it is a unique trait of the Bicol language. In the game, these words have stronger effects than the normal ones.\\
+The simplest task of the players is to avoid the patrolling IP by moving places. This can be done by selecting the MC, marking it as \textit{kami} to include the other Revivers, selecting the verbal root \textit{duman} and using \textit{nag-}, selecting a place like a tile on the map or a building and marking it as \textit{sa}, then making a turn.\\
 
 \textbf{Food}\\
-The players need to secure their source of food. Food recruits people and each people brings one \textbf{Insight} to the players. Insights are necessary in recovering native words and in making new words. The larger the allied people, the more words can be made. The needed number of Insights to create words vary.
-Concrete nouns require the least amount of Insights. Next are verbs relating to physical movements. Mental verbs like to think has higher Insight requirements than the normal verbs. Abtracts nouns have high Insight requirement as well.\\
+Food is crucial in the game. Food lets the Revivers recruit people or reclaim people. This is one of the players tasks in the game. Food can be obtained in the forest sections of the map or from buildings that produces kinds of food. The players give food to the Revivers so that they can recruit people. Revivers are people that are part of a group like in professions that is why they are tasked to recruit people.\\
 
-\textbf{Recruitment}\\
-The Insurgents are the ones that recruits people. For every insurgent, they collect food and this ables them to recruit people.
+\textbf{Insight}\\
+Every people in the game has an attribute called Insight. Players need this to input words into the game. The more people the players recruit as ally, the more Insights they will have. Different kind of words will have different number of Insight requirement.\\
 
-\textbf{Insight}
-For every people recruited, they add Insight to the players. Every people contributes one Insight. Profesionals offer more Insights.
+\textbf{Prestige}\\
+Prestige  is the meter on how powerful the language is. The more words the language has the higher its prestige. Prestige adds multipler to the damages of the players attacks using the words. For example, \textit{machete} and \textit{sundang} both have the same base damage, but in actuality, they can differ in damage. The language with the higher prestige will have the higher damage output. This is why expanding the language is important.\\
 
-\textbf{Nouns:}
+\textbf{Nouns}\\
 Every entity in the game has its corresponding nouns. Knowing the nominal names give the players power over that entity. For example, in order to use wood, the player must record the Bicol word kahoy. Nouns reffering to objects have damage attributes. They have varying amount of damage depending on object. For example, sundang has higher damage than tukawan.
 There are also nouns referring to places. These nouns can reclaim building institutions in the game like entering the Bicol word for hospital will give players access to it.
 
@@ -129,40 +133,41 @@ Derivation is the process of adding affixes to nouns to create new words. Bicol 
 The following are the possible \textbf{affixes} in the game:\\
 
 
-\textbf{Verbs:}
-Verbal words give players actions. Learning an action takes time and different actions can have varying needed duration to be learned. Verbs are divided into transitive and intransitive. Transitive verbs require at least two arguments: the actor and the patient; while Intransitive verbs require at least one argument, the actor or the patient.
-
-Conjugation is the adding of affixes to the verb in order to convey mood and aspect.\\
+\textbf{Verbs}\\
+Verbal words give players actions. Learning an action takes time and different actions can have varying needed duration to be learned. Verbs are divided into transitive and intransitive. Transitive verbs require at least two arguments: the actor and the patient; while Intransitive verbs require at least one argument, the actor or the patient.\\
 
 \textbf{Defence}\\
-Defence is an attribute that each institutions or buildings has. The defence increase with the number of native words associated to that institution.\\
-
-\textbf{Prestige}\\
-Prestige is the meter on how strong the language is. Prestige can be increased with the addition of words into the players' language.\\
+Defence is an attribute that each institutions or buildings has. The defence increases with the number of native words associated to that institution.\\
 
 \textbf{Combats}\\
-There are several combats in the game implemented using turn-based strategy.
+There are several combats in the game implemented using turn-based strategy.\\
+\textbf{Physical Objects}:
+Imperials and the players can fight using physical objects. The damage of the physical object can be increased during fights by using \textbf{semantic chaining}. The enemy or the players provide words related to their weapon. The more words provided, the stronger the attack. This means that bigger vocabulary can offer longer semantic chains.\\
+\textbf{Translations}:
+The Imperial fights by giving the player a word in English and they must block it by giving the counterpart of word in their language. When the players miss the turn by not knowing the word or giving incorrect word, they will take damage, reducing their HP.\\
+\textbf{Puzzles}:
+Puzzles are given to the players when they use professionals to become an agent inside a building to steal its Imperial name. If the players succesfully deciphered the puzzle, they can claim the building by naming it. If the players fail to do the puzzle, the professional will be caught and there will be penalties to the players. \\
 
-\textbf{Physical Objects}
-Imperials and the players can fight using physical objects. The damage of the physical object can be increased during fights by using \textbf{semantic chaining}. The enemy or the players provide words related to their weapon. The more words provided, the stronger the attack. This means that bigger vocabulary can offer longer semantic chains.
-
-\textbf{Translations}
-The Imperial fights by giving the player a word in English and they must block it by giving the counterpart of word in their language. When the players miss the turn by not knowing the word or giving incorrect word, they will take damage, reducing their HP.
-
-\textbf{Puzzles}
-Puzzles are given to the players when they use professionals to become an agent inside a building to steal its Imperial name. If the players succesfully deciphered the puzzle, they can claim the building by naming it. If the players fail to do the puzzle, the professional will be caught and there will be penalties to the players. 
-
-
+\textbf{Hunger, Health, and Mana}\\
+The players have hunger, health, and mana bars. Hunger and mana depletes at every turn of the game. Hunger also depletes during the rest period i.e not having turns. Food feeds hunger. The rest of the allied people also consumes food. Health can be depleted during combats and when hunger bar reaches a certain lower limit. Mana is lost  during usage of words. It is possible to lose the game because of the players death. Mana can be restored by doing sleeping action.\\ 
 
 
 \subsubsection{Story, Setting, and Character}
-Many years have passed after the language imperalist Nation conquered every country in the world. Many languages have been lost and the rest nears extinction. No one knows how but one day, these lost languages rise from death and gave its people powers to fight against their colonizers. Few people have discovered this and they form the Insurgents. Their aim is to use this power to reclaim their land and push the Imperials away. They then made their goal to revive their lost native language and cultivate this to protect themselves from foreign invaders. 
+Many years have passed after the language imperalist Nation, Imperium, conquered every country in the world. Many languages have been lost and the rest nears extinction. No one knows how but one day, these lost languages rise from death and gave its people powers to fight against their colonizers. Few people have discovered this and they form the Revivers. Their aim is to use this power to reclaim their land and push the Imperials away. They then made their goal to revive their lost native language and cultivate this to protect themselves from foreign invaders. 
 
 The game takes place in an alternate simplified version of Naga City, Camarines Sur, Bicol, Philippines. Since the main purpose of the game is to help preserve languages, it will use real-life languages and copy necessary elements from their origin of place.
 
-\textbf{Professionals} \\
-Professionals are allies of the players. They are special people because the players can give them names of profession. Being professionals, they offer higher Insight contribution to the players. Each professional is associated to a building. Professionals then can give the players access inside buildings occupied by the Imperials.
+\textbf{Revivers}\\
+Revivers are allies of the players. They are the special people because the players give them personal names and profession. Being professionals, they offer higher Insight contribution to the players. Each professional is associated to a building. Revivers, then, can give the players access inside buildings occupied by the Imperials. This lets the player task them to infiltrate and do \textbf{espionage}. They will try to steal the foreign name of the building and the player will translate it into the native language.
 
+\textbf{Imperial Police}\\
+Imperial Police is part of the Imperium who patrols the map. It is a single enemy unit. Players can avoid it or combat against it once they meet up. The type of combat during this event is the translation battle.\\
+
+\textbf{Imperial Guards}\\
+These are a group of Imperials that guards buildings. Players can take building by brute fore by combatting with the Imperial Guards. The type of combat during this event is the one that uses physical objects.\\
+
+\textbf{Imperial Spy}\\
+The Imperium also deploy spies. Words can be stolen from the dictionary of the players. Spies can happen during a long duration of rest i.e not having turns for long period of time. Multiple words can be lost even with just one instance Imperial Espionage.\\
 
 
 \subsubsection{Levels}
@@ -219,7 +224,9 @@ The game takes inspiration from turn-based tactical games like Freeciv and Civil
 
 The game also adopts the concept of technology tree. 
 
-The concept of the game is based from the model of reviving threatened languages by the lingust Joshua Fishman. The model consist of eight stages of using the language. 
+The concept of the game is based from the model of reviving threatened languages by the lingust Joshua Fishman. The model consist of eight stages of using the language.
+
+The Bicol language influenced most of the game mechanics of the game. Its grammatical features left unique a gameplay of the game. This applies to other languages that will be implemented in the game, since different languages have different grammars, they will have different gameplay from each other.
 
 \section{TECHNICAL BACKGROUND}
 The game will be written using C++, SMFL? 2D

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  30 AUG 2025 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  31 AUG 2025 03:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,6 +455,23 @@ le
 t line 53.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
+LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
+nput line 68.
+
+(/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
+File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
+amond-OsF.
+)
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
+ilable
+(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
+input line 68.
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 68.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -469,39 +486,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 
-      [1]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+l.92 
+      [1{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 93--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 106--115
+
+ []
+
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 116.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 116.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
@@ -513,23 +526,33 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[2{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
@@ -542,6 +565,20 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -551,27 +588,36 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [4]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[5]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-37.
+43.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 237.
+(Font)              <10.95> on input line 243.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 237.
+(Font)              <8> on input line 243.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 237.
+(Font)              <6> on input line 243.
 
-Overfull \hbox (67.60223pt too wide) in paragraph at lines 237--238
+Overfull \hbox (67.60223pt too wide) in paragraph at lines 243--244
 []$\T1/cmtt/m/n/10.95 https : / / app . diagrams . net / #Lgame % 20diagrams . 
 drawio # %7B % 22pageId % 22 % 3A % 22Ie5LLhRZTwk1cWGMkZ7P %
  []
 
-<diagrams/dfd01.png, id=168, 615.29875pt x 399.4925pt>
+<diagrams/dfd01.png, id=166, 615.29875pt x 399.4925pt>
 File: diagrams/dfd01.png Graphic file (type png)
 <use diagrams/dfd01.png>
-Package pdftex.def Info: diagrams/dfd01.png  used on input line 245.
+Package pdftex.def Info: diagrams/dfd01.png  used on input line 251.
 (pdftex.def)             Requested size: 317.07614pt x 205.87198pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -581,26 +627,27 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[5{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./diagrams/
+[6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./diagrams/
 dfd01.png>] (gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: 177DE8A45585AF3D6DD8B0FE5E9E1E6B;5059.
+(rerunfilecheck)             Checksum: C44373D5E265217ADE2AF57047A2E015;4757.
  ) 
 Here is how much of TeX's memory you used:
- 10582 strings out of 476025
- 171744 string characters out of 5796501
- 1862388 words of memory out of 5000000
- 30850 multiletter control sequences out of 15000+600000
- 574901 words of font info for 55 fonts, out of 8000000 for 9000
+ 10641 strings out of 476025
+ 173415 string characters out of 5796501
+ 1863388 words of memory out of 5000000
+ 30900 multiletter control sequences out of 15000+600000
+ 581240 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,1012b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,874b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
-r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on gameProposal1//gameProposal1.pdf (6 pages, 266392 bytes).
+r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on gameProposal1//gameProposal1.pdf (7 pages, 357477 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
