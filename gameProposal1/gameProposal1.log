@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  31 AUG 2025 03:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  1 SEP 2025 05:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,32 +309,40 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
 )
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks22
+\float@box=\box53
+\@float@everytoks=\toks23
+\@floatcapt=\box54
+)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box55
 )
 (gameProposal1//gameProposal1.aux)
 \openout1 = `gameProposal1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -370,9 +378,9 @@ LaTeX Font Info:    ... okay on input line 28.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count277
-\c@mv@boldtabular=\count278
-Package hyperref Info: Link coloring OFF on input line 28.
+\c@mv@tabular=\count278
+\c@mv@boldtabular=\count279
+Package hyperref Info: Link coloring OFF on input line 29.
 (gameProposal1//gameProposal1.out) (gameProposal1//gameProposal1.out)
 \@outlinefile=\write3
 \openout3 = `gameProposal1.out'.
@@ -380,17 +388,17 @@ Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
+\scratchcounter=\count280
 \scratchdimen=\dimen161
-\scratchbox=\box54
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count282
+\scratchbox=\box56
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count283
 \MPscratchDim=\dimen162
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -403,21 +411,21 @@ e
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 37.
+nput line 38.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 37.
+(Font)              scaled to size 17.28pt on input line 38.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 37.
+t line 38.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 37.
+(Font)              scaled to size 17.28pt on input line 38.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10.95> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 44.
+t line 45.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 44.
+(Font)              scaled to size 10.95pt on input line 45.
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -434,29 +442,29 @@ st/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <14.4> not avail
 able
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 52.
+nput line 53.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
+(Font)              scaled to size 14.4pt on input line 53.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <14.4> not avail
 able
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 52.
+t line 53.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
+(Font)              scaled to size 14.4pt on input line 53.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availab
 le
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 53.
+nput line 54.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 53.
+(Font)              scaled to size 12.0pt on input line 54.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not availab
 le
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 53.
+t line 54.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 53.
+(Font)              scaled to size 12.0pt on input line 54.
 LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
-nput line 68.
+nput line 69.
 
 (/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
@@ -465,11 +473,11 @@ amond-OsF.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
 ilable
 (Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
-input line 68.
+input line 69.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 68.
+(Font)              scaled to size 10.95pt on input line 69.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
@@ -486,35 +494,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 
+l.93 
       [1{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 93--105
+Underfull \hbox (badness 10000) in paragraph at lines 94--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--115
+Underfull \hbox (badness 10000) in paragraph at lines 107--116
 
  []
 
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 116.
+input line 117.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 116.
+(Font)              scaled to size 10.95pt on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
@@ -527,32 +535,42 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--150
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
@@ -565,17 +583,32 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
@@ -588,6 +621,45 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -597,28 +669,10 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [5]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-43.
- (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 243.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 243.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 243.
+Underfull \hbox (badness 10000) in paragraph at lines 266--269
 
-Overfull \hbox (67.60223pt too wide) in paragraph at lines 243--244
-[]$\T1/cmtt/m/n/10.95 https : / / app . diagrams . net / #Lgame % 20diagrams . 
-drawio # %7B % 22pageId % 22 % 3A % 22Ie5LLhRZTwk1cWGMkZ7P %
  []
 
-<diagrams/dfd01.png, id=166, 615.29875pt x 399.4925pt>
-File: diagrams/dfd01.png Graphic file (type png)
-<use diagrams/dfd01.png>
-Package pdftex.def Info: diagrams/dfd01.png  used on input line 251.
-(pdftex.def)             Requested size: 317.07614pt x 205.87198pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -627,27 +681,119 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./diagrams/
-dfd01.png>] (gameProposal1//gameProposal1.aux)
+[6]
+<diagrams/usecase.png, id=158, 672.5125pt x 865.2325pt>
+File: diagrams/usecase.png Graphic file (type png)
+<use diagrams/usecase.png>
+Package pdftex.def Info: diagrams/usecase.png  used on input line 275.
+(pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
+<diagrams/act.png, id=160, 716.6775pt x 1105.12875pt>
+File: diagrams/act.png Graphic file (type png)
+<use diagrams/act.png>
+Package pdftex.def Info: diagrams/act.png  used on input line 284.
+(pdftex.def)             Requested size: 317.07614pt x 488.93936pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.288 
+       <./diagrams/usecase.png>]
+<diagrams/dfd0.png, id=167, 657.45625pt x 72.27pt>
+File: diagrams/dfd0.png Graphic file (type png)
+<use diagrams/dfd0.png>
+Package pdftex.def Info: diagrams/dfd0.png  used on input line 293.
+(pdftex.def)             Requested size: 317.07614pt x 34.8546pt.
+<diagrams/dfd1.png, id=168, 756.8275pt x 653.44125pt>
+File: diagrams/dfd1.png Graphic file (type png)
+<use diagrams/dfd1.png>
+Package pdftex.def Info: diagrams/dfd1.png  used on input line 300.
+(pdftex.def)             Requested size: 317.07614pt x 273.76544pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 
+       <./diagrams/act.png> <./diagrams/dfd0.png>]
+<diagrams/dfd2a.png, id=177, 517.935pt x 796.9775pt>
+File: diagrams/dfd2a.png Graphic file (type png)
+<use diagrams/dfd2a.png>
+Package pdftex.def Info: diagrams/dfd2a.png  used on input line 307.
+(pdftex.def)             Requested size: 317.07614pt x 487.91888pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.311 
+       <./diagrams/dfd1.png>]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318 \end{document}
+                     <./diagrams/dfd2a.png>] (gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: C44373D5E265217ADE2AF57047A2E015;4757.
+(rerunfilecheck)             Checksum: 689916997CD346492DBE8C4EC9F8288D;4352.
  ) 
 Here is how much of TeX's memory you used:
- 10641 strings out of 476025
- 173415 string characters out of 5796501
+ 10708 strings out of 476025
+ 174294 string characters out of 5796501
  1863388 words of memory out of 5000000
- 30900 multiletter control sequences out of 15000+600000
- 581240 words of font info for 59 fonts, out of 8000000 for 9000
+ 30965 multiletter control sequences out of 15000+600000
+ 578487 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,874b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,874b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on gameProposal1//gameProposal1.pdf (7 pages, 357477 bytes).
+are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
+Output written on gameProposal1//gameProposal1.pdf (11 pages, 459219 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
+ 223 PDF objects out of 1000 (max. 8388607)
  191 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

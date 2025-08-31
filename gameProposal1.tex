@@ -9,6 +9,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{float}
 
 \renewcommand{\thesection}{\Roman{section}.}
 \renewcommand{\thesubsection}{\alph{subsection}.}
@@ -87,7 +88,7 @@ Implement turn-based mechanics
 \end{itemize}
   
 \subsubsection{Gameplay and Mechanics}
-For the prototype of the game, the game will use English as the Imperial language and Bicol Naga as the native language. As the game starts for the first time, it will ask for the username of the players. It will reveal that the players have awaken from a dream. Then, the players' character (MC) will tell the dream to their allies, the Revivers. The MC will then proceed to demonstrate its dream as the gameplay of the game, revealing it as the guidance from the spirit of their lost language. During the game, the players will input Bicol root words into the game storing it in their own dictionary.\\
+For the prototype of the game, the game will use English as the Imperial language and Bicol Naga as the native language. As the game starts for the first time, it will ask for the username of the players. It will reveal that the players have awaken from a dream. Then, the players' character (MC will then proceed to demonstrate its dream as the gameplay of the game, revealing it as the guidance from the spirit of their lost language. During the game, the players will input Bicol root words into the game storing it in their own dictionary.\\
 The players will play on a pre-defined map adapted from the real-life map of Naga City. The Imperium controls most of the map especially important buildings like Hospitals, Universities, and Governmental ones. There is also the Imperial Police (IP) that patrols around the map and checks every buildings to look for Revivers. The game is turn-based and a turn can be made once the players made an action. Actions require arguments and these are any entities on the game. Actions are basically the verbal roots that the players input into the game and the arguments are the nominal roots that the players input into the game plus the already existing entities on the game's map such as the buildings. Using the words that the players own, they will make sentences that will drive the game.\\
 
 \textbf{Entity Markers}\\
@@ -117,6 +118,12 @@ The simplest task of the players is to avoid the patrolling IP by moving places.
 
 \textbf{Food}\\
 Food is crucial in the game. Food lets the Revivers recruit people or reclaim people. This is one of the players tasks in the game. Food can be obtained in the forest sections of the map or from buildings that produces kinds of food. The players give food to the Revivers so that they can recruit people. Revivers are people that are part of a group like in professions that is why they are tasked to recruit people.\\
+
+\textbf{Conversion Chains}\\
+When a building is reclaimed, the neighbouring households can be converted to allies or speaker of the language given that enough food is avaible.\\
+
+\textbf{Pushback Mechanics}\\
+In every stage of the game, there is a limit to how speed conversions happen, if the players exceed this limit, it will trigger checking from the Imperial Police.\\
 
 \textbf{Insight}\\
 Every people in the game has an attribute called Insight. Players need this to input words into the game. The more people the players recruit as ally, the more Insights they will have. Different kind of words will have different number of Insight requirement.\\
@@ -149,7 +156,10 @@ The Imperial fights by giving the player a word in English and they must block i
 Puzzles are given to the players when they use professionals to become an agent inside a building to steal its Imperial name. If the players succesfully deciphered the puzzle, they can claim the building by naming it. If the players fail to do the puzzle, the professional will be caught and there will be penalties to the players. \\
 
 \textbf{Hunger, Health, and Mana}\\
-The players have hunger, health, and mana bars. Hunger and mana depletes at every turn of the game. Hunger also depletes during the rest period i.e not having turns. Food feeds hunger. The rest of the allied people also consumes food. Health can be depleted during combats and when hunger bar reaches a certain lower limit. Mana is lost  during usage of words. It is possible to lose the game because of the players death. Mana can be restored by doing sleeping action.\\ 
+The players have hunger, health, and mana bars. Hunger and mana depletes at every turn of the game. Hunger also depletes during the rest period i.e not having turns. Food feeds hunger. The rest of the allied people also consumes food. Health can be depleted during combats and when hunger bar reaches a certain lower limit. Mana is lost  during usage of words. It is possible to lose the game because of the players death. Mana can be restored by doing sleeping action.\\
+
+\textbf{Random Events}\\
+Random events are events where group of people appears on the map. It can be youth gathering where the players have chance to recruit people. There will be triggers for some events. Another event is visits from the Imperium, this lowers the chance of people joining the players.\\
 
 
 \subsubsection{Story, Setting, and Character}
@@ -159,6 +169,11 @@ The game takes place in an alternate simplified version of Naga City, Camarines 
 
 \textbf{Revivers}\\
 Revivers are allies of the players. They are the special people because the players give them personal names and profession. Being professionals, they offer higher Insight contribution to the players. Each professional is associated to a building. Revivers, then, can give the players access inside buildings occupied by the Imperials. This lets the player task them to infiltrate and do \textbf{espionage}. They will try to steal the foreign name of the building and the player will translate it into the native language.
+
+\textbf{Citizens}\\
+These are the people of Naga City that appears randomly on the map. They have attributes such as the language they are using, how likely they will join the players, and its social connections. There is a chance that its social connections will be converted too once they join the players. Players offer them food to start an interaction.
+\textbf{Spoken Fluency}: This is an attribute of the people that refers to their proficiency in speaking the language. The number of words influence the spoken fluency of the poeple.\\
+\textbf{Literacy Level}: This refers to the literary skills of the people. Literacy can be improved by inputing words related to it. The players can then use these words to make turn that will increase people literacy.\\
 
 \textbf{Imperial Police}\\
 Imperial Police is part of the Imperium who patrols the map. It is a single enemy unit. Players can avoid it or combat against it once they meet up. The type of combat during this event is the translation battle.\\
@@ -171,37 +186,52 @@ The Imperium also deploy spies. Words can be stolen from the dictionary of the p
 
 
 \subsubsection{Levels}
-Each institution represents a level. The institutions are associated into one of the eight stages of reviving threantened languages by linguist Fishman.
+There are seven main objectives in the game which can be thought of as the levels. The institutions or buildings in the game are associated into one of the eight stages of reviving threatened languages by the linguist Joshua Fishman. In order to progress from each stage, the players must meet conditions associated to each stage. At each stage, random events will also appear.\\
 
+\textbf{Stage 1}\\
+The first stage of the game is accomplishment of the tutorial during the first opening of the game.
 
-Family Household
-Elementary Schools
-Highschools
-Colleges
-Educational Institutions
-Medical Institutions
-Religious Institutions
-Shopping District
-Market
-Government, Baranggay, City Hall
+\textbf{Stage 2}\\
+The second stage of the game revolves around the recruitment of the people socially. The players must enter basic phrases like greetings in Bicol and use this to interact to random people that appears on the map. Once a people is recruited, a spoken fluency meter will appear.\\
 
-the player strengthen the claim of each institution by providing words related to each.
+\textbf{Stage 3}\\
+The game enters the third stage once the tasks in second stage is fulfilled. The third stage revolves around the acquisition of local buildings such as coffee shops, small sari-sari stores, and the like. This stage introduces the concept of \textbf{conversion chains}.\\
+
+\textbf{Stage 4}\\
+The fourth stage introduces the literacy meter found in recurited people. Conditions to surpass the fourth stage is to discover words related to literacy and making turns using those words.\\
+
+\textbf{Stage 5}\\
+In the fifth stage, the players must reclaim educational buildings on the map. This requires assigning teachers that can enter educational premises. There is a required amount of literacy skill in order to name someone as teacher or similar title.\\
+
+\textbf{Stage 6}\\
+In the sixth stage, the players must reclaim workplaces like shops, markets, farms, and factories. The players must establish the language in the workplace fo the people. A specific number of spoken fluency and literacy is need to start working at the sixth stage.\\
+
+\textbf{Stage 7}\\
+Once enough workplaces are controlled by the players, the seventh stage enters. This stage revolves around controlling the baranggay level government. At this stage, \textbf{Public Visibility Score} appears. This score makes it easier for the people to maintain the usage of the language without much micro-management. Sample buildings are local officers, health clinics, courts, and councils. This is at barangay level.\\
+
+\textbf{Stage 8}\\
+The last stage revolves around  the full institutionalization of the language. In this stage, the players are expected to input words related to science, law, governance, and philosophy. Players are tasked to reclaim universities, colleges, and research institutes. The players can also now reclaim the highest government in Naga City.\\
+
+Once the players achived the victory conditions for the eight stage, the game can still continue where the players collect and preserve words from the native language. At thi stage, the language is now ready to conquer other languages.\\
 
 \subsubsection{Interface}
+
+
 
 \subsubsection{Map View}
 The map is an isometric version inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right.
 
-\subsubsection{Resource Panel}
 \subsubsection{Event and Dialogue Box}
+
+
 \subsubsection{Control Panels}
-\subsubsection{Word History}
-This contains the words discovered, created, and used by the players.
+The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button.
+
+\subsubsection{History}
+This contains the words discovered, created, and used by the players and the turns that the players did.
 
 \subsubsection{Dictionary}
 Players will have their own dictionaries. They are composed of the words that they have entered into the game.
-
-\subsubsection{Technology Tree}
 
 \subsubsection{Combats}
 
@@ -222,8 +252,6 @@ The prototype will be made for personal computers.
 \subsection{Concept of the Project}
 The game takes inspiration from turn-based tactical games like Freeciv and Civilisation. Instead of building a civilisation, the player must retake an already existing society. Similar to the games mentioned, it will also be possible to expand and dominate other player-controlled section of the map. That is one of the visions of the game --- a multiplayer online tactical game.
 
-The game also adopts the concept of technology tree. 
-
 The concept of the game is based from the model of reviving threatened languages by the lingust Joshua Fishman. The model consist of eight stages of using the language.
 
 The Bicol language influenced most of the game mechanics of the game. Its grammatical features left unique a gameplay of the game. This applies to other languages that will be implemented in the game, since different languages have different grammars, they will have different gameplay from each other.
@@ -237,24 +265,51 @@ SQL for database
 \subsection{Development Process}
 The project will adopt an iterative and incremental development process with an emphasis on rapid prototyping. 
 Initial efforts will focus on producing quick, playable prototypes to test the core mechanics of the game such as word recovery, resource management, and turn-based progression. 
-Feedback from these prototypes will inform successive iterations, where additional features and refinements will be implemented in small increments. 
+Feedback from these prototypes will inform successive iterations, where additional features and refinements will be implemented in small increments.\\
 
 \subsection{Diagrams}
-\url{https://app.diagrams.net/#Lgame%20diagrams.drawio#%7B%22pageId%22%3A%22Ie5LLhRZTwk1cWGMkZ7P%22%7D}
-
 \subsubsection{Use-case Diagram}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{diagrams/usecase.png}
+  \caption{Use-case diagram.}
+  \label{fig:usecase}
+\end{figure}
+
 \subsubsection{Activity Diagram}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{diagrams/act.png}
+  \caption{Activity diagram.}
+  \label{fig:act}
+\end{figure}
+
 \subsubsection{Data Diagram}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/dfd01.png}
-  \caption{Level 0 Data flow diagram.}
+  \includegraphics[width=0.7\textwidth]{diagrams/dfd0.png}
+  \caption{Context diagram.}
   \label{fig:dfd0}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{diagrams/dfd1.png}
+  \caption{Major processes and stores.}
+  \label{fig:dfd1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{diagrams/dfd2a.png}
+  \caption{Word submission and validation diagram.}
+  \label{fig:dfd2a}
+\end{figure}
+
 \subsection{Features and Functionalities}
-\subsubsection{Food}
 
 
 \subsection{Timeline and Development Milestones}
