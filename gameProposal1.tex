@@ -310,7 +310,103 @@ Feedback from these prototypes will inform successive iterations, where addition
 \end{figure}
 
 \subsection{Features and Functionalities}
+\subsubsection{Core Gameplay}
+\textbf{Turn-based System}\\
+Allocate player action points and process the Imperial turns.\\
 
+\textbf{Stage Progression}\\
+Unlock new challenges/mechanics as stages advance.\\
+
+\textbf{Language Revival Actions}\\
+Teaching, reclaiming texts, espionage, negotiation.\\
+
+\textbf{Aspect Mechanic}\\
+Perfective brings instant impact, imperfective brings continous effect, and contemplative brings future payoff.\\
+
+\textbf{Functions}\\
+\begin{itemize}
+\item
+  startturn(): resets actions points and enable choices
+\item
+  performAction(actionID): executes chosen action and update resources
+\item
+  resolveNPCMoves(): simulates opposition or support responses
+\item
+  advanceStage(): checks conditions and unlock next stage
+\end{itemize}
+
+\subsubsection{Player Management}
+These functionalities track player identity, progress, and stats. They also manage resources.
+
+\textbf{Functions}\\
+\begin{itemize}
+\item
+  createPlayer(profileData)
+\item
+  loadPlayer(saveFile)
+\item
+  updateResources(resourceType, value)
+\item
+  checkVictoryOrDefeat()
+\end{itemize}
+
+\subsubsection{NPC and AI}
+These functionalities model insurgents, allies, neutral entities, and government. They also generate resistance or support events.\\
+
+\textbf{Functions}
+\begin{itemize}
+\item
+  generateNPCDecision(npcID, gameState)
+\item
+  updateNPCRelations(npcID, delta)
+\item
+  triggerEvent(eventID)
+\end{itemize}
+
+\textbf{World and Data}
+These functionalities store information on languages, stages, actions, and NPCs. They keep logs of player progress and past decisions.\\
+
+\textbf{Functions}
+\begin{itemize}
+\item
+  getLanguageData(languageID)
+\item
+  saveGameState(playerID)
+\item
+  loadGameState(playerID)
+\item
+  logAction(playerID, actionID, outcome)
+\end{itemize}
+
+\subsubsection{UI/UX}
+These functionalities show the player stats, current stage, available actions, and map/board of revival progress. They also show dialogues, events, and story text display.\\
+
+\textbf{Functions}
+\begin{itemize}
+\item
+  renderDashboard{gameState}
+\item
+  updateHUD(resources, stage, influence)
+\item
+  showEventPopup(eventID)
+\item
+  displayDialogue(npcID, text)
+\end{itemize}
+
+\subsubsection{System}
+These functionalities are responsible for saving and loading of sessions, settings such as language, and difficulty, and player tutorial and help system.\\
+
+\textbf{Functions}
+\begin{itemize}
+\item
+  saveToDB(playerData)/saveToFile()
+\item
+  loadFromDB(playerID)/loadFromFile()
+\item
+  changeSetting(settingID, value)
+\item
+  showTutorial(stageID)
+\end{itemize}
 
 \subsection{Timeline and Development Milestones}
 

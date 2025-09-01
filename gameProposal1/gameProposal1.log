@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  1 SEP 2025 05:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  1 SEP 2025 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,12 +682,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [6]
-<diagrams/usecase.png, id=158, 672.5125pt x 865.2325pt>
+<diagrams/usecase.png, id=178, 672.5125pt x 865.2325pt>
 File: diagrams/usecase.png Graphic file (type png)
 <use diagrams/usecase.png>
 Package pdftex.def Info: diagrams/usecase.png  used on input line 275.
 (pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
-<diagrams/act.png, id=160, 716.6775pt x 1105.12875pt>
+<diagrams/act.png, id=180, 716.6775pt x 1105.12875pt>
 File: diagrams/act.png Graphic file (type png)
 <use diagrams/act.png>
 Package pdftex.def Info: diagrams/act.png  used on input line 284.
@@ -708,12 +708,12 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.288 
        <./diagrams/usecase.png>]
-<diagrams/dfd0.png, id=167, 657.45625pt x 72.27pt>
+<diagrams/dfd0.png, id=187, 657.45625pt x 72.27pt>
 File: diagrams/dfd0.png Graphic file (type png)
 <use diagrams/dfd0.png>
 Package pdftex.def Info: diagrams/dfd0.png  used on input line 293.
 (pdftex.def)             Requested size: 317.07614pt x 34.8546pt.
-<diagrams/dfd1.png, id=168, 756.8275pt x 653.44125pt>
+<diagrams/dfd1.png, id=188, 756.8275pt x 653.44125pt>
 File: diagrams/dfd1.png Graphic file (type png)
 <use diagrams/dfd1.png>
 Package pdftex.def Info: diagrams/dfd1.png  used on input line 300.
@@ -740,7 +740,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.304 
        <./diagrams/act.png> <./diagrams/dfd0.png>]
-<diagrams/dfd2a.png, id=177, 517.935pt x 796.9775pt>
+<diagrams/dfd2a.png, id=197, 517.935pt x 796.9775pt>
 File: diagrams/dfd2a.png Graphic file (type png)
 <use diagrams/dfd2a.png>
 Package pdftex.def Info: diagrams/dfd2a.png  used on input line 307.
@@ -761,6 +761,25 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.311 
        <./diagrams/dfd1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -774,26 +793,72 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.318 \end{document}
-                     <./diagrams/dfd2a.png>] (gameProposal1//gameProposal1.aux)
+l.325 
+       <./diagrams/dfd2a.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[12] (gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: 689916997CD346492DBE8C4EC9F8288D;4352.
+(rerunfilecheck)             Checksum: 42536FEFFF2897D033C9FDCE84B5AB7E;4959.
  ) 
 Here is how much of TeX's memory you used:
- 10708 strings out of 476025
- 174294 string characters out of 5796501
+ 10720 strings out of 476025
+ 174508 string characters out of 5796501
  1863388 words of memory out of 5000000
- 30965 multiletter control sequences out of 15000+600000
+ 30970 multiletter control sequences out of 15000+600000
  578487 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,874b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,874b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on gameProposal1//gameProposal1.pdf (11 pages, 459219 bytes).
+Output written on gameProposal1//gameProposal1.pdf (13 pages, 463660 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
