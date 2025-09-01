@@ -59,8 +59,21 @@ Revivers is a prospective open-source turn-based strategy game revolving around 
 The game provides a platform for documenting languages. The game contains specimens from real-life languages that the player must discover to unlock gameplay elements. Aside from that, players themselves contribute to this purpose by collecting real life words from their chosen language and inputting them into the game. This involves everyone in saving their own languages from possible threats of extinction in the future. This is particularly relevant in the Philippines, where documentation of local languages receives little attention. Furthermore, the game encourages lexical innovation (a linguistic process where new words of terms enter a language) and touches linguistic purism as it rewards words constructed using neologism.
 
 \subsection{Objectives}
-Document at least 200 native words in prototype.
-Implement turn-based mechanics
+The objectives of the project are as follows:
+
+\begin{itemize}
+    \item Document at least 200 native words in the prototype to promote language preservation.
+    \item Implement a functional turn-based system that allows players to perform actions per turn.
+    \item Design and implement the core gameplay loop using an Entity–Component–System (ECS) architecture to ensure modularity and scalability.
+    \item Develop basic language revival mechanics, including recruiting and reclaiming actions.
+    \item Implement NPC behavior and interactions using AI-driven systems for allies, neutral citizens, and opponents.
+    \item Create a functional map of the game area with tile-based movement and territorial control.
+    \item Design and integrate key game attributes such as health, mana, hunger, insight, and prestige.
+    \item Implement the stage progression system based on the eight stages of language revival as per Joshua Fishman’s model.
+    \item Develop a basic user interface for action selection, resource tracking, and event feedback.
+    \item Enable save/load functionality to preserve player progress and dictionary entries.
+    \item Conduct iterative testing and playtesting to refine mechanics, balance resources, and ensure gameplay is engaging.
+\end{itemize}
 
 \subsection{Game Specifics}
 \subsubsection{Game Theme}
@@ -313,7 +326,7 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/usecase.png}
+  \includegraphics[width=0.7\textwidth]{images/usecase.png}
   \caption{Use-case diagram.}
   \label{fig:usecase}
 \end{figure}
@@ -322,7 +335,7 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/act.png}
+  \includegraphics[width=0.7\textwidth]{images/act.png}
   \caption{Activity diagram.}
   \label{fig:act}
 \end{figure}
@@ -331,21 +344,21 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/dfd0.png}
+  \includegraphics[width=0.7\textwidth]{images/dfd0.png}
   \caption{Context diagram.}
   \label{fig:dfd0}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/dfd1.png}
+  \includegraphics[width=0.7\textwidth]{images/dfd1.png}
   \caption{Major processes and stores.}
   \label{fig:dfd1}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/dfd2a.png}
+  \includegraphics[width=0.7\textwidth]{images/dfd2a.png}
   \caption{Word submission and validation diagram.}
   \label{fig:dfd2a}
 \end{figure}
@@ -544,7 +557,7 @@ This is the timeline for the development of the game done written in org-mode Em
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{diagrams/elgantt.png}
+  \includegraphics[width=0.7\textwidth]{images/elgantt.png}
   \caption{Tentative developmental timeline.}
   \label{fig:gantt}
 \end{figure}
