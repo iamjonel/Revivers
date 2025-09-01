@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  1 SEP 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  1 SEP 2025 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,7 +464,7 @@ t line 54.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 54.
 LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
-nput line 69.
+nput line 70.
 
 (/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
@@ -473,11 +473,11 @@ amond-OsF.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
 ilable
 (Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
-input line 69.
+input line 70.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 69.
+(Font)              scaled to size 10.95pt on input line 70.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
@@ -494,35 +494,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 
+l.94 
       [1{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 94--106
+Underfull \hbox (badness 10000) in paragraph at lines 95--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--116
+Underfull \hbox (badness 10000) in paragraph at lines 108--117
 
  []
 
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 117.
+input line 118.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 117.
+(Font)              scaled to size 10.95pt on input line 118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
@@ -535,42 +530,42 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--157
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 150--158
 
  []
 
@@ -583,32 +578,27 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--177
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
@@ -621,42 +611,52 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
@@ -669,10 +669,6 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -682,15 +678,37 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [6]
-<diagrams/usecase.png, id=178, 672.5125pt x 865.2325pt>
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 307--310
+
+ []
+
+<diagrams/usecase.png, id=198, 672.5125pt x 865.2325pt>
 File: diagrams/usecase.png Graphic file (type png)
 <use diagrams/usecase.png>
-Package pdftex.def Info: diagrams/usecase.png  used on input line 275.
+Package pdftex.def Info: diagrams/usecase.png  used on input line 316.
 (pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
-<diagrams/act.png, id=180, 716.6775pt x 1105.12875pt>
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[8]
+<diagrams/act.png, id=204, 716.6775pt x 1105.12875pt>
 File: diagrams/act.png Graphic file (type png)
 <use diagrams/act.png>
-Package pdftex.def Info: diagrams/act.png  used on input line 284.
+Package pdftex.def Info: diagrams/act.png  used on input line 325.
 (pdftex.def)             Requested size: 317.07614pt x 488.93936pt.
 
 
@@ -701,22 +719,22 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[7
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.288 
+l.329 
        <./diagrams/usecase.png>]
-<diagrams/dfd0.png, id=187, 657.45625pt x 72.27pt>
+<diagrams/dfd0.png, id=211, 657.45625pt x 72.27pt>
 File: diagrams/dfd0.png Graphic file (type png)
 <use diagrams/dfd0.png>
-Package pdftex.def Info: diagrams/dfd0.png  used on input line 293.
+Package pdftex.def Info: diagrams/dfd0.png  used on input line 334.
 (pdftex.def)             Requested size: 317.07614pt x 34.8546pt.
-<diagrams/dfd1.png, id=188, 756.8275pt x 653.44125pt>
+<diagrams/dfd1.png, id=212, 756.8275pt x 653.44125pt>
 File: diagrams/dfd1.png Graphic file (type png)
 <use diagrams/dfd1.png>
-Package pdftex.def Info: diagrams/dfd1.png  used on input line 300.
+Package pdftex.def Info: diagrams/dfd1.png  used on input line 341.
 (pdftex.def)             Requested size: 317.07614pt x 273.76544pt.
 
 
@@ -727,23 +745,23 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[8
+[10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.304 
+l.345 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.304 
+l.345 
        <./diagrams/act.png> <./diagrams/dfd0.png>]
-<diagrams/dfd2a.png, id=197, 517.935pt x 796.9775pt>
+<diagrams/dfd2a.png, id=221, 517.935pt x 796.9775pt>
 File: diagrams/dfd2a.png Graphic file (type png)
 <use diagrams/dfd2a.png>
-Package pdftex.def Info: diagrams/dfd2a.png  used on input line 307.
+Package pdftex.def Info: diagrams/dfd2a.png  used on input line 348.
 (pdftex.def)             Requested size: 317.07614pt x 487.91888pt.
 
 
@@ -754,32 +772,13 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[9
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.311 
+l.352 
        <./diagrams/dfd1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -788,37 +787,13 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[10
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.325 
-       <./diagrams/dfd2a.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
+l.368   I
+         mperial Guards <./diagrams/dfd2a.png>]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -827,11 +802,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-
- []
-
+[13]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -840,25 +811,50 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[12] (gameProposal1//gameProposal1.aux)
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+<diagrams/elgantt.png, id=243, 685.56125pt x 598.235pt>
+File: diagrams/elgantt.png Graphic file (type png)
+<use diagrams/elgantt.png>
+Package pdftex.def Info: diagrams/elgantt.png  used on input line 547.
+(pdftex.def)             Requested size: 317.07614pt x 276.6976pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.553 \end{document}
+                     <./diagrams/elgantt.png>]
+(gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: 42536FEFFF2897D033C9FDCE84B5AB7E;4959.
+(rerunfilecheck)             Checksum: 878DECA60444F6CF46BB7E83B6089410;5707.
  ) 
 Here is how much of TeX's memory you used:
- 10720 strings out of 476025
- 174508 string characters out of 5796501
- 1863388 words of memory out of 5000000
- 30970 multiletter control sequences out of 15000+600000
+ 10740 strings out of 476025
+ 174864 string characters out of 5796501
+ 1864388 words of memory out of 5000000
+ 30981 multiletter control sequences out of 15000+600000
  578487 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,874b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,874b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on gameProposal1//gameProposal1.pdf (13 pages, 463660 bytes).
+Output written on gameProposal1//gameProposal1.pdf (16 pages, 503181 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

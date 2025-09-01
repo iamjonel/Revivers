@@ -64,6 +64,7 @@ Implement turn-based mechanics
 
 \subsection{Game Specifics}
 \subsubsection{Game Theme}
+The game will be visually similar to Civilisation or Freeciv. It will also be more text-based.
 \begin{itemize}
 \item
   Cultural Preservation/Language Revival
@@ -216,31 +217,66 @@ Once the players achived the victory conditions for the eight stage, the game ca
 
 \subsubsection{Interface}
 
-
-
 \subsubsection{Map View}
 The map is an isometric version inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right.
 
 \subsubsection{Event and Dialogue Box}
-
+This section displays messages, instructions, and dialogues between NPCs and the player.
+\begin{itemize}
+\item Dialogue Box: Shows conversations with Revivers, citizens, and Imperials.
+\item Event Notifications: Random events, triggers, or alerts for Imperial Police patrols.
+\item Turn Prompts: Indicates when a player’s turn starts or ends.
+\item Tooltips: Provide information when hovering over entities, tiles, or objects.
+\end{itemize}
 
 \subsubsection{Control Panels}
-The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button.
+The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button..
+\begin{itemize}
+\item Noun Marker Panel: Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
+\item Verb Panel: Choose verbal roots and apply affixes (\textit{-in-}, \textit{-nag-}, \textit{-in-an}).
+\item Sentence Formation Window: Shows the sentence created from selected words and markers.
+\item Action/Turn Button: Confirms actions and progresses the turn.
+\item Resource HUD: Displays food, mana, hunger, prestige, and other key stats.
+\end{itemize}
 
 \subsubsection{History}
-This contains the words discovered, created, and used by the players and the turns that the players did.
+This contains the chronological log of words discovered, created, and used by the players and the turns that the players did.
 
 \subsubsection{Dictionary}
-Players will have their own dictionaries. They are composed of the words that they have entered into the game.
+Players will have their own dictionaries. They are composed of the words that they have entered into the game. It supports the following:
+\begin{itemize}
+\item Searching for words
+\item Viewing root words and affixes
+\item Tracking word usage frequency and effect on gameplay
+\end{itemize}
 
 \subsubsection{Combats}
+The combat interface differs depending on combat type:
+\begin{itemize}
+\item Physical Combat: Displays attacking entity, target entity, and available objects for attacks. Includes semantic chaining display.
+\item Translation Battles: Shows foreign words to defend against and input field for players to provide equivalent native words.
+\item Puzzle Combat: Shows puzzle prompts, hints, and submission box for correct solutions.
+\end{itemize}
+Combat panels also display health, mana, and status effects of entities involved.
 
+\subsubsection{Notifications and Alerts}
+\begin{itemize}
+\item Imperial Actions: Alerts when Imperial Police or Guards move or attack.
+\item Stage Progress: Updates when objectives or conditions for the current stage are met.
+\item Random Events: Alerts for spontaneous events such as gatherings or visits from Imperials.
+\item Low Resources: Warning messages for low food, mana, or health.
+\end{itemize}
 
+\subsubsection{Settings and Tutorial Panels}
+\begin{itemize}
+\item Settings: Adjust difficulty.
+\item Tutorial: Step-by-step guidance for new players, highlighting UI elements and explaining game mechanics.
+\end{itemize}
 
 \subsection{Scope and Delimitation}
 The protoype of the game will only include a small portion of Naga City and will only use the Bicol language as the native language that the players can choose. English will also be chosen as the foreign language.
 
-The prototype will not include multiplayer support, setting customisations, large-scale maps.
+The prototype will not include multiplayer support, and large-scale maps.
 
 
 
@@ -257,11 +293,16 @@ The concept of the game is based from the model of reviving threatened languages
 The Bicol language influenced most of the game mechanics of the game. Its grammatical features left unique a gameplay of the game. This applies to other languages that will be implemented in the game, since different languages have different grammars, they will have different gameplay from each other.
 
 \section{TECHNICAL BACKGROUND}
-The game will be written using C++, SMFL? 2D
-SQL for database
+\subsection{Architectural Framework}
+The game will adopt an Entity-Component-System architecture. It separates data from the behaviours that enables modular, scalable, and flexible game systems. The entities represent all distinct objects in the game such as the players, NPCs, buildings, and words; components are the modular data that attach to entities; and systems are the game logic that operates on entities with their specific components.
+
+\subsection{Development Tools}
+The game will be developed as a 2D application using C++ in combination with the SFML (Simple and Fast Multimedia Library) for graphics, and input handling.  
+The primary programming environment will be Emacs, with Makefiles used to manage the build process and compilation.  
+For data storage, such as player progress, dictionaries, and game state, SQL will be employed as the database backend.
+
 
 \section{METHODOLOGY}
-\subsection{Development Process}
 \subsection{Development Process}
 The project will adopt an iterative and incremental development process with an emphasis on rapid prototyping. 
 Initial efforts will focus on producing quick, playable prototypes to test the core mechanics of the game such as word recovery, resource management, and turn-based progression. 
@@ -310,105 +351,203 @@ Feedback from these prototypes will inform successive iterations, where addition
 \end{figure}
 
 \subsection{Features and Functionalities}
+The game will use entity-component-system structure in its design. Entities are the nouns in the game such as units, buildings and resources. Components are the data attached to these entities. Systems are the logic that operates on these entities with certain components.
+
 \subsubsection{Core Gameplay}
-\textbf{Turn-based System}\\
-Allocate player action points and process the Imperial turns.\\
-
-\textbf{Stage Progression}\\
-Unlock new challenges/mechanics as stages advance.\\
-
-\textbf{Language Revival Actions}\\
-Teaching, reclaiming texts, espionage, negotiation.\\
-
-\textbf{Aspect Mechanic}\\
-Perfective brings instant impact, imperfective brings continous effect, and contemplative brings future payoff.\\
-
-\textbf{Functions}\\
+\textbf{Entities}:
 \begin{itemize}
 \item
-  startturn(): resets actions points and enable choices
+  Player
 \item
-  performAction(actionID): executes chosen action and update resources
+  Revivers
 \item
-  resolveNPCMoves(): simulates opposition or support responses
+  Citizens
 \item
-  advanceStage(): checks conditions and unlock next stage
+  Imperial Police
+\item
+  Imperial Guards
+\item Buildings
+\item
+  words (as collectible entities)
+\end{itemize}
+
+\textbf{Components}
+\begin{itemize}
+\item
+  TurnComponent: action points, currentPhase
+\item
+  StageComponent: progress, unlockedFeatures
+\item
+  ActionComponent: chosen action plus arguments
+\item
+  AspectComponent: perfective, imperfective, contemplative
+\end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
+\item
+  TurnSystem: reset action points, start turns
+\item
+  ActionSystem: executes player actions
+\item
+  AISystem: NPC moves
+\item
+  StageSystem: check conditions and unlock mechanics
+\item
+  AspectSystem: resolve effects over time
 \end{itemize}
 
 \subsubsection{Player Management}
-These functionalities track player identity, progress, and stats. They also manage resources.
-
-\textbf{Functions}\\
+\textbf{Entities}:
 \begin{itemize}
 \item
-  createPlayer(profileData)
+  Player
+\end{itemize}
+
+\textbf{Components}
+\begin{itemize}
 \item
-  loadPlayer(saveFile)
+  ProfileComponent: name, ID
 \item
-  updateResources(resourceType, value)
+  ResourceComponent: food, prestige, mana, hunger
 \item
-  checkVictoryOrDefeat()
+  ProgressComponent: stage, victories, defeats
+\end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
+\item
+  ResourceSystem: update resources
+\item
+  WinConditionSystem: check victory or defeat
+\item
+  PersistenceSystem: save and load profilees
 \end{itemize}
 
 \subsubsection{NPC and AI}
-These functionalities model insurgents, allies, neutral entities, and government. They also generate resistance or support events.\\
-
-\textbf{Functions}
+\textbf{Entities}:
 \begin{itemize}
 \item
-  generateNPCDecision(npcID, gameState)
-\item
-  updateNPCRelations(npcID, delta)
-\item
-  triggerEvent(eventID)
+  NPCEntity: citizen, revivers, guard, police, spy
 \end{itemize}
 
-\textbf{World and Data}
-These functionalities store information on languages, stages, actions, and NPCs. They keep logs of player progress and past decisions.\\
-
-\textbf{Functions}
+\textbf{Components}
 \begin{itemize}
 \item
-  getLanguageData(languageID)
+  EvenTriggerComponent
 \item
-  saveGameState(playerID)
+  RelationComponent: loyaltym hostility
 \item
-  loadGameState(playerID)
+  AIComponrnt: decision state
+\end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
 \item
-  logAction(playerID, actionID, outcome)
+  AISystem: generate decisions
+\item
+  RelationSystem: update trust, hostility
+\item
+  EventSystem: spawn resistance, recruitable events
+\end{itemize}
+
+\subsubsection{World and Data}
+\textbf{Entities}:
+\begin{itemize}
+\item
+  WorldEntity: map, dictionary, language DB
+\end{itemize}
+
+\textbf{Components}
+\begin{itemize}
+\item
+  MapComponent: tiles, ownership
+\item
+  DictionaryComponent: player's collected words
+\item
+  LanguageDataComponent: words, roots, affixes
+\item
+  LogComponent: past actions
+\end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
+\item
+  LogSystem:append action outcomes
+\item
+  PersistenceSystem: save and load world
+\item
+  DictionarySystem: store and validate words
+\item
+  WorldSystem: manages global map state
 \end{itemize}
 
 \subsubsection{UI/UX}
-These functionalities show the player stats, current stage, available actions, and map/board of revival progress. They also show dialogues, events, and story text display.\\
-
-\textbf{Functions}
+\textbf{Entities}:
 \begin{itemize}
 \item
-  renderDashboard{gameState}
-\item
-  updateHUD(resources, stage, influence)
-\item
-  showEventPopup(eventID)
-\item
-  displayDialogue(npcID, text)
+  UIEntity: HUD, Dashboard, DialogueBox
 \end{itemize}
 
-\subsubsection{System}
-These functionalities are responsible for saving and loading of sessions, settings such as language, and difficulty, and player tutorial and help system.\\
-
-\textbf{Functions}
+\textbf{Components}
 \begin{itemize}
 \item
-  saveToDB(playerData)/saveToFile()
+  RenderComponent: sprites, HUD text
 \item
-  loadFromDB(playerID)/loadFromFile()
+  DialogueComponent: npcID, text
 \item
-  changeSetting(settingID, value)
-\item
-  showTutorial(stageID)
+  PopupComponent: eventID
 \end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
+\item
+  RenderSystem: map and UI
+\item
+  HUDSystem: update resources, stage, influence
+\item
+  DialoogueSystem: display NPC text
+\item
+  EventUISystem: show popups
+\end{itemize}
+
+\subsubsection{System/Meta}
+\textbf{Entities}:
+\begin{itemize}
+\item
+  TutorialEntity
+\item
+  SettingsEntity
+\end{itemize}
+
+\textbf{Components}
+\begin{itemize}
+\item
+  TutorialComponent: stageID, progress
+\item
+  SettingComponent: language, difficulty
+\end{itemize}
+
+\textbf{Systems}
+\begin{itemize}
+\item
+  TutorialSystem: display guidance
+\item
+  SettingsSystem: change settings values
+\item
+  PersistenceSystem: database/file storage
+\end{itemize}
+
 
 \subsection{Timeline and Development Milestones}
+This is the timeline for the development of the game done written in org-mode Emacs and turned into Gantt chart using elgantt-mode. The dates are under possible changes in the future.\\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{diagrams/elgantt.png}
+  \caption{Tentative developmental timeline.}
+  \label{fig:gantt}
+\end{figure}
 
 
 \end{document}
