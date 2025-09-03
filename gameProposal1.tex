@@ -232,7 +232,7 @@ Once the players achived the victory conditions for the eight stage, the game ca
 \subsubsection{Interface}
 
 \subsubsection{Map View}
-The map is inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right.
+The map is inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right. The players can only move the camera using keyboard input. Their character remains at its place when they move the camera.
 
 \subsubsection{Event and Dialogue Box}
 This section displays messages, instructions, and dialogues between NPCs and the player.
@@ -244,7 +244,7 @@ This section displays messages, instructions, and dialogues between NPCs and the
 \end{itemize}
 
 \subsubsection{Control Panels}
-The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button..
+The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button. All of these are controlled using keyboard keys.
 \begin{itemize}
 \item Noun Marker Panel: Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
 \item Verb Panel: Choose verbal roots and apply affixes (\textit{-in-}, \textit{-nag-}, \textit{-in-an}).
@@ -463,6 +463,8 @@ The game will use entity-component-system structure in its design. Entities are 
   RelationSystem: update trust, hostility
 \item
   EventSystem: spawn resistance, recruitable events
+\item
+  Camera System: moves the camera one tile at a time across the map grid
 \end{itemize}
 
 \subsubsection{World and Data}
