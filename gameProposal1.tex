@@ -246,7 +246,8 @@ This section displays messages, instructions, and dialogues between NPCs and the
 \subsubsection{Control Panels}
 The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button. All of these are controlled using keyboard keys.
 \begin{itemize}
-\item Noun Marker Panel: Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
+\item Noun Marker Panel:\\
+  Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
 \item Verb Panel: Choose verbal roots and apply affixes (\textit{-in-}, \textit{-nag-}, \textit{-in-an}).
 \item Sentence Formation Window: Shows the sentence created from selected words and markers.
 \item Action/Turn Button: Confirms actions and progresses the turn.
@@ -286,6 +287,11 @@ Combat panels also display health, mana, and status effects of entities involved
 \item Settings: Adjust difficulty.
 \item Tutorial: Step-by-step guidance for new players, highlighting UI elements and explaining game mechanics.
 \end{itemize}
+
+\subsection{Controls}
+This section details the input methods in the game.
+
+The players press the enter key to select entities inside that tile. The first selector will prioritize buildings on the tile and the player can use WASD to move the selector to choose other entities present on the tile. Control-c exits control within the tile and goes back to the map view.
 
 \subsection{Scope and Delimitation}
 The protoype of the game will only include a small portion of Naga City and will only use the Bicol language as the native language that the players can choose. English will also be chosen as the foreign language.
@@ -450,7 +456,7 @@ The game will use entity-component-system structure in its design. Entities are 
 \item
   EvenTriggerComponent
 \item
-  RelationComponent: loyaltym hostility
+  RelationComponent: loyalty hostility
 \item
   AIComponrnt: decision state
 \end{itemize}
@@ -496,6 +502,8 @@ The game will use entity-component-system structure in its design. Entities are 
   DictionarySystem: store and validate words
 \item
   WorldSystem: manages global map state
+\item
+  TurnSystem: manages the selection of nouns and verbs during actions.
 \end{itemize}
 
 \subsubsection{UI/UX}
