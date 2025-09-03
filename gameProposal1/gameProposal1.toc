@@ -15,13 +15,13 @@
 \contentsline {subsubsection}{\numberline {d.x}Event and Dialogue Box}{10}{subsubsection.1.4.10}%
 \contentsline {subsubsection}{\numberline {d.xi}Control Panels}{10}{subsubsection.1.4.11}%
 \contentsline {subsubsection}{\numberline {d.xii}History}{10}{subsubsection.1.4.12}%
-\contentsline {subsubsection}{\numberline {d.xiii}Dictionary}{10}{subsubsection.1.4.13}%
+\contentsline {subsubsection}{\numberline {d.xiii}Dictionary}{11}{subsubsection.1.4.13}%
 \contentsline {subsubsection}{\numberline {d.xiv}Combats}{11}{subsubsection.1.4.14}%
 \contentsline {subsubsection}{\numberline {d.xv}Notifications and Alerts}{11}{subsubsection.1.4.15}%
 \contentsline {subsubsection}{\numberline {d.xvi}Settings and Tutorial Panels}{11}{subsubsection.1.4.16}%
 \contentsline {subsection}{\numberline {e.}Controls}{11}{subsection.1.5}%
 \contentsline {subsection}{\numberline {f.}Scope and Delimitation}{11}{subsection.1.6}%
-\contentsline {subsection}{\numberline {g.}Target Audience and Platform}{11}{subsection.1.7}%
+\contentsline {subsection}{\numberline {g.}Target Audience and Platform}{12}{subsection.1.7}%
 \contentsline {subsection}{\numberline {h.}Concept of the Project}{12}{subsection.1.8}%
 \contentsline {section}{\numberline {II.}TECHNICAL BACKGROUND}{12}{section.2}%
 \contentsline {subsection}{\numberline {a.}Architectural Framework}{12}{subsection.2.1}%
