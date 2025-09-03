@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  4 SEP 2025 02:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  4 SEP 2025 03:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -649,6 +649,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--190
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
+
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
 (fancyhdr)                \setlength{\headheight}{30.05234pt}.
@@ -657,60 +662,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 30.05234pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.05234pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
+Underfull \hbox (badness 10000) in paragraph at lines 232--236
 
  []
 
@@ -725,7 +677,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--242
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
@@ -738,16 +738,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [9]
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 30.05234pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.05234pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 340--343
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
@@ -759,16 +750,38 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
+[10]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
 [11]
-<images/usecase.png, id=270, 672.5125pt x 865.2325pt>
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+
+ []
+
+<images/usecase.png, id=280, 672.5125pt x 865.2325pt>
 File: images/usecase.png Graphic file (type png)
 <use images/usecase.png>
-Package pdftex.def Info: images/usecase.png  used on input line 349.
+Package pdftex.def Info: images/usecase.png  used on input line 381.
 (pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
-<images/act.png, id=272, 716.6775pt x 1105.12875pt>
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[12]
+<images/act.png, id=288, 716.6775pt x 1105.12875pt>
 File: images/act.png Graphic file (type png)
 <use images/act.png>
-Package pdftex.def Info: images/act.png  used on input line 358.
+Package pdftex.def Info: images/act.png  used on input line 390.
 (pdftex.def)             Requested size: 317.07614pt x 488.93936pt.
 
 
@@ -779,22 +792,22 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[12
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.362 
+l.394 
        <./images/usecase.png>]
-<images/dfd0.png, id=279, 657.45625pt x 72.27pt>
+<images/dfd0.png, id=294, 657.45625pt x 72.27pt>
 File: images/dfd0.png Graphic file (type png)
 <use images/dfd0.png>
-Package pdftex.def Info: images/dfd0.png  used on input line 367.
+Package pdftex.def Info: images/dfd0.png  used on input line 399.
 (pdftex.def)             Requested size: 317.07614pt x 34.8546pt.
-<images/dfd1.png, id=280, 756.8275pt x 653.44125pt>
+<images/dfd1.png, id=295, 756.8275pt x 653.44125pt>
 File: images/dfd1.png Graphic file (type png)
 <use images/dfd1.png>
-Package pdftex.def Info: images/dfd1.png  used on input line 374.
+Package pdftex.def Info: images/dfd1.png  used on input line 406.
 (pdftex.def)             Requested size: 317.07614pt x 273.76544pt.
 
 
@@ -805,23 +818,23 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[13
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 
+l.410 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 
+l.410 
        <./images/act.png> <./images/dfd0.png>]
-<images/dfd2a.png, id=288, 517.935pt x 796.9775pt>
+<images/dfd2a.png, id=302, 517.935pt x 796.9775pt>
 File: images/dfd2a.png Graphic file (type png)
 <use images/dfd2a.png>
-Package pdftex.def Info: images/dfd2a.png  used on input line 381.
+Package pdftex.def Info: images/dfd2a.png  used on input line 413.
 (pdftex.def)             Requested size: 317.07614pt x 487.91888pt.
 
 
@@ -832,12 +845,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.385 
+l.417 
        <./images/dfd1.png>]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -847,12 +860,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[15
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.401   I
+l.433   I
          mperial Guards <./images/dfd2a.png>]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -862,25 +875,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[16]
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 30.05234pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.05234pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
-
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
-
- []
-
-<images/elgantt.png, id=307, 685.56125pt x 598.235pt>
-File: images/elgantt.png Graphic file (type png)
-<use images/elgantt.png>
-Package pdftex.def Info: images/elgantt.png  used on input line 584.
-(pdftex.def)             Requested size: 317.07614pt x 276.6976pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -890,6 +885,15 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+
+ []
+
+<images/elgantt.png, id=322, 685.56125pt x 598.235pt>
+File: images/elgantt.png Graphic file (type png)
+<use images/elgantt.png>
+Package pdftex.def Info: images/elgantt.png  used on input line 616.
+(pdftex.def)             Requested size: 317.07614pt x 276.6976pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -898,31 +902,40 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[19
+[19]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.590 \end{document}
+l.622 \end{document}
                      <./images/elgantt.png>] (gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: 81CEC8BDD4CA8F15B6A4101CCC1FBAF4;5805.
+(rerunfilecheck)             Checksum: 70E38D1DF8B0D1D77A06FFD22BACA55B;6063.
  ) 
 Here is how much of TeX's memory you used:
- 10854 strings out of 476025
- 176816 string characters out of 5796501
- 1867388 words of memory out of 5000000
- 31068 multiletter control sequences out of 15000+600000
+ 10859 strings out of 476025
+ 176907 string characters out of 5796501
+ 1868388 words of memory out of 5000000
+ 31070 multiletter control sequences out of 15000+600000
  580926 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,874b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,874b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on gameProposal1//gameProposal1.pdf (20 pages, 510706 bytes).
+Output written on gameProposal1//gameProposal1.pdf (21 pages, 512250 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 
