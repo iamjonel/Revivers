@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  3 SEP 2025 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.8.6)  4 SEP 2025 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,6 +317,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box54
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
@@ -325,24 +327,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (gameProposal1//gameProposal1.aux)
 \openout1 = `gameProposal1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -380,7 +382,17 @@ LaTeX Font Info:    ... okay on input line 29.
 
 \c@mv@tabular=\count278
 \c@mv@boldtabular=\count279
-Package hyperref Info: Link coloring OFF on input line 29.
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 35.
+
 (gameProposal1//gameProposal1.out) (gameProposal1//gameProposal1.out)
 \@outlinefile=\write3
 \openout3 = `gameProposal1.out'.
@@ -411,21 +423,21 @@ e
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 38.
+nput line 44.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
+(Font)              scaled to size 17.28pt on input line 44.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 38.
+t line 44.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
+(Font)              scaled to size 17.28pt on input line 44.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10.95> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 45.
+t line 51.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 45.
+(Font)              scaled to size 10.95pt on input line 51.
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -442,40 +454,27 @@ st/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <14.4> not avail
 able
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 53.
+nput line 59.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 53.
+(Font)              scaled to size 14.4pt on input line 59.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <14.4> not avail
 able
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 53.
+t line 59.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 53.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availab
-le
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 54.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 54.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not availab
-le
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 54.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 54.
-LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
-nput line 65.
+(Font)              scaled to size 14.4pt on input line 59.
 
-(/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
-File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
-amond-OsF.
+(gameProposal1//gameProposal1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
 )
-LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
-ilable
-(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
-input line 65.
-LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 65.
+\tf@toc=\write4
+\openout4 = `gameProposal1.toc'.
+
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -490,22 +489,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85   E
-        ducation/Learning [1{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/e
-bgm_ld6df2.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+l.60 \newpage
+              [1] (gameProposal1//gameProposal1.lof)
+\tf@lof=\write5
+\openout5 = `gameProposal1.lof'.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--130
-
- []
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -515,42 +503,44 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[2]
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
+[2] (gameProposal1//gameProposal1.lot)
+\tf@lot=\write6
+\openout6 = `gameProposal1.lot'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[3]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 67.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 67.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
+t line 67.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 67.
+LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
+nput line 78.
+ (/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
+File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
+amond-OsF.
+)
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
 ilable
-(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 131.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 131.
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
+(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
+input line 78.
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 78.
 
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -560,81 +550,18 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[4{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 121--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 30.05234pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.05234pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 187--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 134--143
 
  []
 
@@ -647,27 +574,39 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 144.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 144.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
@@ -679,7 +618,36 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[6]
+[6{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -689,15 +657,45 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 321--324
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
 
  []
 
-<images/usecase.png, id=198, 672.5125pt x 865.2325pt>
-File: images/usecase.png Graphic file (type png)
-<use images/usecase.png>
-Package pdftex.def Info: images/usecase.png  used on input line 330.
-(pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -707,10 +705,70 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
 [8]
-<images/act.png, id=204, 716.6775pt x 1105.12875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 340--343
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[11]
+<images/usecase.png, id=270, 672.5125pt x 865.2325pt>
+File: images/usecase.png Graphic file (type png)
+<use images/usecase.png>
+Package pdftex.def Info: images/usecase.png  used on input line 349.
+(pdftex.def)             Requested size: 317.07614pt x 407.93996pt.
+<images/act.png, id=272, 716.6775pt x 1105.12875pt>
 File: images/act.png Graphic file (type png)
 <use images/act.png>
-Package pdftex.def Info: images/act.png  used on input line 339.
+Package pdftex.def Info: images/act.png  used on input line 358.
 (pdftex.def)             Requested size: 317.07614pt x 488.93936pt.
 
 
@@ -721,22 +779,22 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[9
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.343 
+l.362 
        <./images/usecase.png>]
-<images/dfd0.png, id=211, 657.45625pt x 72.27pt>
+<images/dfd0.png, id=279, 657.45625pt x 72.27pt>
 File: images/dfd0.png Graphic file (type png)
 <use images/dfd0.png>
-Package pdftex.def Info: images/dfd0.png  used on input line 348.
+Package pdftex.def Info: images/dfd0.png  used on input line 367.
 (pdftex.def)             Requested size: 317.07614pt x 34.8546pt.
-<images/dfd1.png, id=212, 756.8275pt x 653.44125pt>
+<images/dfd1.png, id=280, 756.8275pt x 653.44125pt>
 File: images/dfd1.png Graphic file (type png)
 <use images/dfd1.png>
-Package pdftex.def Info: images/dfd1.png  used on input line 355.
+Package pdftex.def Info: images/dfd1.png  used on input line 374.
 (pdftex.def)             Requested size: 317.07614pt x 273.76544pt.
 
 
@@ -747,23 +805,23 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[10
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.359 
+l.378 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.359 
+l.378 
        <./images/act.png> <./images/dfd0.png>]
-<images/dfd2a.png, id=221, 517.935pt x 796.9775pt>
+<images/dfd2a.png, id=288, 517.935pt x 796.9775pt>
 File: images/dfd2a.png Graphic file (type png)
 <use images/dfd2a.png>
-Package pdftex.def Info: images/dfd2a.png  used on input line 362.
+Package pdftex.def Info: images/dfd2a.png  used on input line 381.
 (pdftex.def)             Requested size: 317.07614pt x 487.91888pt.
 
 
@@ -774,12 +832,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[11
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.366 
+l.385 
        <./images/dfd1.png>]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -789,12 +847,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[12
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.382   I
+l.401   I
          mperial Guards <./images/dfd2a.png>]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -804,7 +862,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[13]
+[16]
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 30.05234pt, for example:
@@ -813,15 +871,15 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
-<images/elgantt.png, id=243, 685.56125pt x 598.235pt>
+<images/elgantt.png, id=307, 685.56125pt x 598.235pt>
 File: images/elgantt.png Graphic file (type png)
 <use images/elgantt.png>
-Package pdftex.def Info: images/elgantt.png  used on input line 561.
+Package pdftex.def Info: images/elgantt.png  used on input line 584.
 (pdftex.def)             Requested size: 317.07614pt x 276.6976pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -831,31 +889,40 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
 
-[15
+[18]
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 30.05234pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.05234pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.05234pt}.
+
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.567 \end{document}
+l.590 \end{document}
                      <./images/elgantt.png>] (gameProposal1//gameProposal1.aux)
 Package rerunfilecheck Info: File `gameProposal1.out' has not changed.
-(rerunfilecheck)             Checksum: 878DECA60444F6CF46BB7E83B6089410;5707.
+(rerunfilecheck)             Checksum: 81CEC8BDD4CA8F15B6A4101CCC1FBAF4;5805.
  ) 
 Here is how much of TeX's memory you used:
- 10740 strings out of 476025
- 174790 string characters out of 5796501
- 1863388 words of memory out of 5000000
- 30981 multiletter control sequences out of 15000+600000
- 578487 words of font info for 50 fonts, out of 8000000 for 9000
+ 10854 strings out of 476025
+ 176816 string characters out of 5796501
+ 1867388 words of memory out of 5000000
+ 31068 multiletter control sequences out of 15000+600000
+ 580926 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,874b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,874b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></us
 r/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on gameProposal1//gameProposal1.pdf (16 pages, 504113 bytes).
+Output written on gameProposal1//gameProposal1.pdf (20 pages, 510706 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
