@@ -15,6 +15,12 @@
 \renewcommand{\thesubsection}{\alph{subsection}.}
 \renewcommand{\thesubsubsection}{\thesubsection\roman{subsubsection}}
 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue
+}
+
 % --- header ---
 \pagestyle{fancy}
 \fancyhf{}
@@ -31,24 +37,31 @@
 % --- cover page ----
 \begin{titlepage}
   \thispagestyle{fancy}
-
+  
   \vspace*{4cm}
   \centering
-    \vfill
-    {\LARGE \textbf{REVIVERS}} \\
-    \vspace{0.5cm}
-    CSMC311 Software Engineering 2 \\
-    Proposal Paper
-    
-    \vfill
-
-    \textbf{Game Designer, Programmer, Project Manager} \\
-    Jonel C. Ganalon -- N2
-
-    \vspace{1cm}
-    
-    \vfill 
+  \vfill
+  {\LARGE \textbf{REVIVERS}} \\
+  \vspace{0.5cm}
+  CSMC311 Software Engineering 2 \\
+  Proposal Paper
+  
+  \vfill
+  
+  \textbf{Game Designer, Programmer, Project Manager} \\
+  Jonel C. Ganalon -- N2
+  
+  \vspace{1cm}
+  
+  \vfill 
 \end{titlepage}
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
 
 \section{Introduction}
 \subsection{Overview}
@@ -142,14 +155,14 @@ In every stage of the game, there is a limit to how speed conversions happen, if
 \textbf{Insight}\\
 Every people in the game has an attribute called Insight. Players need this to input words into the game. The more people the players recruit as ally, the more Insights they will have. Different kind of words will have different number of Insight requirement.\\
 
-\textbf{Prestige}\\
+\hypertarget{prestige}{\textbf{Prestige}}\\
 Prestige  is the meter on how powerful the language is. The more words the language has the higher its prestige. Prestige adds multipler to the damages of the players attacks using the words. For example, \textit{machete} and \textit{sundang} both have the same base damage, but in actuality, they can differ in damage. The language with the higher prestige will have the higher damage output. This is why expanding the language is important.\\
 
 \textbf{Nouns}\\
 Every entity in the game has its corresponding nouns. Knowing the nominal names give the players power over that entity. For example, in order to use wood, the player must record the Bicol word kahoy. Nouns reffering to objects have damage attributes. They have varying amount of damage depending on object. For example, sundang has higher damage than tukawan.
 There are also nouns referring to places. These nouns can reclaim building institutions in the game like entering the Bicol word for hospital will give players access to it.
 
-Derivation is the process of adding affixes to nouns to create new words. Bicol has several productive ways of doing derivations. Aside from this, players can do neologism. Neologism is where the player creates new word that does not exist in the Bicol language. Doing neologism costs more Insights but sometimes provides additional benefits. It adds more \textbf{prestige} to the language.
+Derivation is the process of adding affixes to nouns to create new words. Bicol has several productive ways of doing derivations. Aside from this, players can do neologism. Neologism is where the player creates new word that does not exist in the Bicol language. Doing neologism costs more Insights but sometimes provides additional benefits. It adds more \hyperlink{prestige}{Prestige} to the language.
 
 The following are the possible \textbf{affixes} in the game:\\
 
@@ -175,12 +188,47 @@ The players have hunger, health, and mana bars. Hunger and mana depletes at ever
 \textbf{Random Events}\\
 Random events are events where group of people appears on the map. It can be youth gathering where the players have chance to recruit people. There will be triggers for some events. Another event is visits from the Imperium, this lowers the chance of people joining the players.\\
 
+\hypertarget{reputation}{\textbf{Reputation}}\\
+Reputation is the image of the players from the perspective of the citizens. If the players have low reputation, there is high probability of households refusing their refuge and low probability of recruiting players socially.
+Reputation is increased by the following mechanics aranged from highest addition to lowest:
+\begin{itemize}
+\item
+  Every succesful acquisition of buildings through combat i.e. victory against Imperial Guards 
+\item
+  Every succesful acquisition of buildings through \hyperlink{espionage}{espionage}
+\item
+  Every victory against Imperial Police
+\item
+  Every succesful recruit
+\end{itemize}
+Meanwhile, reputation is reduced by the following mechanics also arranged from highest to lowest deductions.
+\begin{itemize}
+\item
+  Every failure of building acquisition through combat
+\item
+  Every espionage failure
+\item
+  Every defeat against Imperial Police
+\item
+  Every failed recruit
+\end{itemize}
+The amount added or subtracted to the reputation increases as the game stage advances. When the players reach the lowest reputation, it will slowly increase during the players idle time. However, this can trigger espionage from the Imperial.\\
+
+\hypertarget{espionage}{\textbf{Espionage}}\\
+Espionage is way to secretly steal words from one language to another. Both the players and the Imperium are capable of doing espionage. When players perform espionage, they send a spy to a building to steal the Imperial Name of that building. They can then translate that word to the Native language in order to reclaim the building. Imperial Espionage happens during idle times of the players. The Imperial spies steal words from the players effectively reducing their vocabulary. The longer the idle duration, the higher loss of Native words.\\
 
 \subsubsection{Story, Setting, and Character}
 Many years have passed after the language imperalist Nation, Imperium, conquered every country in the world. Many languages have been lost and the rest nears extinction. No one knows how but one day, these lost languages rise from death and gave its people powers to fight against their colonizers. Few people have discovered this and they form the Revivers. Their aim is to use this power to reclaim their land and push the Imperials away. They then made their goal to revive their lost native language and cultivate this to protect themselves from foreign invaders. 
 
-The game takes place in an alternate simplified version of Naga City, Camarines Sur, Bicol, Philippines. Since the main purpose of the game is to help preserve languages, it will use real-life languages and copy necessary elements from their origin of place.
+\subsubsection{Setting}
+The game takes place in an alternate simplified version of Naga City, Camarines Sur, Bicol, Philippines. Since the main purpose of the game is to help preserve languages, it will use real-life languages and copy necessary elements from their origin of place. The game features the following buildings:
+\begin{itemize}
+\item
+  Households\\
+  These are the houses of the citizens. These houses are unclaimable. The players can, however, enter households as long as they have enough food and \hyperlink{reputation}{Reputation}.
+\end{itemize}
 
+\subsubsection{Characters}
 \textbf{Revivers}\\
 Revivers are allies of the players. They are the special people because the players give them personal names and profession. Being professionals, they offer higher Insight contribution to the players. Each professional is associated to a building. Revivers, then, can give the players access inside buildings occupied by the Imperials. This lets the player task them to infiltrate and do \textbf{espionage}. They will try to steal the foreign name of the building and the player will translate it into the native language.
 
@@ -199,7 +247,7 @@ These are a group of Imperials that guards buildings. Players can take building 
 The Imperium also deploy spies. Words can be stolen from the dictionary of the players. Spies can happen during a long duration of rest i.e not having turns for long period of time. Multiple words can be lost even with just one instance Imperial Espionage.\\
 
 
-\subsubsection{Levels}
+\subsubsection{Levels/Stages}
 There are seven main objectives in the game which can be thought of as the levels. The institutions or buildings in the game are associated into one of the eight stages of reviving threatened languages by the linguist Joshua Fishman. In order to progress from each stage, the players must meet conditions associated to each stage. At each stage, random events will also appear.\\
 
 \textbf{Stage 1}\\
@@ -232,7 +280,7 @@ Once the players achived the victory conditions for the eight stage, the game ca
 \subsubsection{Interface}
 
 \subsubsection{Map View}
-The map is inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right.
+The map is inspired by real-life locations in Naga City. It willl be tile-based. Areas controlled by the Imperials will have different color compare to the areas claimed by the players. The map can be moved in up, down, left and right. The players can only move the camera using keyboard input. Their character remains at its place when they move the camera.
 
 \subsubsection{Event and Dialogue Box}
 This section displays messages, instructions, and dialogues between NPCs and the player.
@@ -244,9 +292,10 @@ This section displays messages, instructions, and dialogues between NPCs and the
 \end{itemize}
 
 \subsubsection{Control Panels}
-The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button..
+The panels for controlling the entities and inputing words for turns. These are the options for nouns makers, the verb panel, window for showing the sentence formed, and the turn button. All of these are controlled using keyboard keys.
 \begin{itemize}
-\item Noun Marker Panel: Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
+\item Noun Marker Panel:\\
+  Select \textit{si}, \textit{ki}, \textit{sa} markers for the entities.
 \item Verb Panel: Choose verbal roots and apply affixes (\textit{-in-}, \textit{-nag-}, \textit{-in-an}).
 \item Sentence Formation Window: Shows the sentence created from selected words and markers.
 \item Action/Turn Button: Confirms actions and progresses the turn.
@@ -287,6 +336,11 @@ Combat panels also display health, mana, and status effects of entities involved
 \item Tutorial: Step-by-step guidance for new players, highlighting UI elements and explaining game mechanics.
 \end{itemize}
 
+\subsection{Controls}
+This section details the input methods in the game.
+
+The players press the enter key to select entities inside that tile. The first selector will prioritize buildings on the tile and the player can use WASD to move the selector to choose other entities present on the tile. Control-c exits control within the tile and goes back to the map view.
+
 \subsection{Scope and Delimitation}
 The protoype of the game will only include a small portion of Naga City and will only use the Bicol language as the native language that the players can choose. English will also be chosen as the foreign language.
 
@@ -312,7 +366,7 @@ The game will adopt an Entity-Component-System architecture. It separates data f
 
 \subsection{Development Tools}
 The game will be developed as a 2D application using C++ in combination with the SFML (Simple and Fast Multimedia Library) for graphics, and input handling.  
-The primary programming environment will be Emacs, with Makefiles used to manage the build process and compilation.  
+The primary programming environment will be Emacs, with CMake used to manage the build process and compilation.  
 For data storage, such as player progress, dictionaries, and game state, SQL will be employed as the database backend.
 
 
@@ -327,7 +381,7 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/usecase.png}
+  \includegraphics[width=0.7\textwidth]{../images/usecase.png}
   \caption{Use-case diagram.}
   \label{fig:usecase}
 \end{figure}
@@ -336,7 +390,7 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/act.png}
+  \includegraphics[width=0.7\textwidth]{../images/act.png}
   \caption{Activity diagram.}
   \label{fig:act}
 \end{figure}
@@ -345,21 +399,21 @@ Feedback from these prototypes will inform successive iterations, where addition
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/dfd0.png}
+  \includegraphics[width=0.7\textwidth]{../images/dfd0.png}
   \caption{Context diagram.}
   \label{fig:dfd0}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/dfd1.png}
+  \includegraphics[width=0.7\textwidth]{../images/dfd1.png}
   \caption{Major processes and stores.}
   \label{fig:dfd1}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/dfd2a.png}
+  \includegraphics[width=0.7\textwidth]{../images/dfd2a.png}
   \caption{Word submission and validation diagram.}
   \label{fig:dfd2a}
 \end{figure}
@@ -450,7 +504,7 @@ The game will use entity-component-system structure in its design. Entities are 
 \item
   EvenTriggerComponent
 \item
-  RelationComponent: loyaltym hostility
+  RelationComponent: loyalty hostility
 \item
   AIComponrnt: decision state
 \end{itemize}
@@ -463,6 +517,8 @@ The game will use entity-component-system structure in its design. Entities are 
   RelationSystem: update trust, hostility
 \item
   EventSystem: spawn resistance, recruitable events
+\item
+  Camera System: moves the camera one tile at a time across the map grid
 \end{itemize}
 
 \subsubsection{World and Data}
@@ -494,6 +550,8 @@ The game will use entity-component-system structure in its design. Entities are 
   DictionarySystem: store and validate words
 \item
   WorldSystem: manages global map state
+\item
+  TurnSystem: manages the selection of nouns and verbs during actions.
 \end{itemize}
 
 \subsubsection{UI/UX}
@@ -558,7 +616,7 @@ This is the timeline for the development of the game done written in org-mode Em
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/elgantt.png}
+  \includegraphics[width=0.7\textwidth]{../images/elgantt.png}
   \caption{Tentative developmental timeline.}
   \label{fig:gantt}
 \end{figure}
