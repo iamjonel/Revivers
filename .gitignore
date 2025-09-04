@@ -6,6 +6,7 @@
 *.lof
 *.lot
 *.gz
+*.toc
 
 # Emacs file backups
 
