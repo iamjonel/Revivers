@@ -1,0 +1,12 @@
+# Latex aux files
+
+*.aux
+*.log
+*.out
+*.lof
+*.lot
+*.gz
+
+# Emacs file backups
+
+*~
