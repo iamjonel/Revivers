@@ -10,10 +10,16 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{tabularx}
+\usepackage{multirow}
 
-\renewcommand{\thesection}{\Roman{section}.}
-\renewcommand{\thesubsection}{\alph{subsection}.}
-\renewcommand{\thesubsubsection}{\thesubsection\roman{subsubsection}}
+%\renewcommand{\thesection}{\Roman{section}.}
+%\renewcommand{\thesubsection}{\alph{subsection}.}
+%\renewcommand{\thesubsubsection}{\thesubsection\roman{subsubsection}}
+%\renewcommand{\theparagraph}{}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
 
 \hypersetup{
   colorlinks=true,
@@ -116,30 +122,62 @@ The game will be visually similar to Civilisation or Freeciv. It will also be mo
   
 \subsubsection{Gameplay and Mechanics}
 For the prototype of the game, the game will use English as the Imperial language and Bicol Naga as the native language. As the game starts for the first time, it will ask for the username of the players. It will reveal that the players have awaken from a dream. Then, the players' character (MC will then proceed to demonstrate its dream as the gameplay of the game, revealing it as the guidance from the spirit of their lost language. During the game, the players will input Bicol root words into the game storing it in their own dictionary.\\
-The players will play on a pre-defined map adapted from the real-life map of Naga City. The Imperium controls most of the map especially important buildings like Hospitals, Universities, and Governmental ones. There is also the Imperial Police (IP) that patrols around the map and checks every buildings to look for Revivers. The game is turn-based and a turn can be made once the players made an action. Actions require arguments and these are any entities on the game. Actions are basically the verbal roots that the players input into the game and the arguments are the nominal roots that the players input into the game plus the already existing entities on the game's map such as the buildings. Using the words that the players own, they will make sentences that will drive the game.\\
+The players will play on a pre-defined map adapted from the real-life map of Naga City. The Imperium controls most of the map especially important buildings like Hospitals, Universities, and Governmental ones. There is also the Imperial Police (IP) that patrols around the map and checks every buildings to look for Revivers. The game is turn-based and a turn can be made once the players made an action. Actions require arguments and these are any entities on the game. Actions are basically the verbal roots that the players input into the game and the arguments are the nominal roots that the players input into the game plus the already existing entities on the game's map such as the buildings. Using the words that the players own, they will make sentences that will drive the game.
 
-\textbf{Entity Markers}\\
-Entities refer to objects in the game that are nouns. In order to use these nouns, the players must choose the correct noun markers for them. There are three sets of markers in Bicol: the \textbf{si}-markers, \textbf{ki}-markers, and \textbf{sa-markers}.\\
-The \textbf{si} set of markers:\\
-\textbf{si}: This is used for entities with personal names such as allies whom the players have given names, a Reviver. This will make the entity the focus of the action.
-\textbf{an}: Similar to \textbf{si} but is used for common nouns.\\
-The \textbf{ni} set of markers are the non-focus arguments of a verb. They are the following:\\
-\textbf{ni}: This is used to refer to entities with personal names.\\
-\textbf{nin}: This is used to refer to entities that are common or general.\\
-The \textbf{locative} markers refer to a place or direction of an action. They are the following:\\
-\textbf{ki}: This is used for entities with personal names.\\
-\textbf{sa}: This is used for entities that has common or general names.\\
-Another set of markers also exist. They are the personal pronouns of Bicol.\\
-
-\textbf{Action}\\
+\paragraph{Turn}
+The game moves forward by having turns. To make a turn possible, the players must construct actions. Actions are sentences that commands what happens in the game. An action is composed of three arguments: the focus, the verb, and the nonfocus. The nonfocus can be a location or an actor of the verb. The focus is the entity that agrees with the verb. It can be the actor or the object of the action. The players first choose the focus of the action, then select the root verb, conjugate the verb, and then select the nonfocus entity.
+\subparagraph{Nouns}
+Entities refer to objects in the game that are nouns. In order to use these nouns, the players must choose the correct noun markers or cases for them. There are three sets of markers in Bicol. \\
+\begin{itemize}
+\item Absolutive case: This marks the focus of the verb.
+\item Ergative: This marks nonfocal entity of the verb.
+\item Oblique: This marks locations, instruments, or beneficiaries of the verb.
+\end{itemize}
+The absolutibe case corresponds to the focus entity; the ergative and oblique corresponds to the nonfocus entity.
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    Cases & Personal & Common \\ \hline
+    Absolutive & si & an \\ \hline
+    Ergative & ni & kan \\ \hline
+    Oblique & ki & sa \\ \hline
+  \end{tabular}
+  \caption{Entity markers in the game.}
+  \label{tab:markers}
+\end{table}
+The personal set is used with entities that have proper names such as fellow Revivers. The common set is used with entities that have common or general names such as Imperial Police.
+    
+\subparagraph{Verbs}
 Once a marker is chosen for specific entity, it will hover above that entity. The players can then select an action from the verbal roots. After this, the players must correctly conjugate the verb by selecting affixes that marks the \textbf{role} of the focused entity and the \textbf{aspect} of the verb.
-\textbf{-in-}: This affix signify that the role of the focused entity is the receiver or patient of the action.\\
-\textbf{-nag-}: This affix signifiy that the role of the focused entity is the actor of the action.\\
-\textbf{-in-an}: This affix signify that the role of the focused entity is the place of the action.\\
-\textbf{perfective}: This aspect means that the action has been finished. This action only persists at each turn of the player. The action finished once the turn is done.
-\textbf{imperfective}: This aspect means that the action has not yet finished. This action continues up to the next turn in the game.
-\textbf{contemplative}: This aspect means that the action is yet to be done. This action will happen in the next turn of the game.\\
-The choices of the players are crucial since this can make an action target the enemy or target themselves or their allies.\\
+
+The aspects of the verb control the duration of the chosen action. They take effect after the players press their turn.
+\begin{table}[H]
+  \centering
+  \begin{tabularx}\linewidth{|c|X|}
+    \hline
+    Aspect & Implication \\ \hline
+    Perfective & After the turn, the action is completed. \\ \hline
+    Imperfective & After the turn, the action will endure for sometimes. This triggers random events in the game. \\ \hline
+    Contemplative & After the turn, the action will be completed at the next turn.\\ \hline
+  \end{tabularx}
+  \caption{Verbal aspects present in the game.}
+  \label{tab:aspects}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\linewidth}{|c|c|c|c|X|}
+    \hline
+    \multirow{2}{*}{Role of the focused Entity} & \multicolumn{3}{c|}{Affix} & \multirow{2}{*}{Meaning} \\ \cline{2-4}
+                               & Perfective & Imperfective & Contemplative & \\ \hline
+    Actor & nag- & nag-CV & ma- & This means that the entity marked with the absolutive case is the actor.\\ \hline
+    Object & -in- & CV-in- & CV-on & This means that the entity marked with the absolutive case is the object or patient of the verb. \\ \hline
+    Locative & -in-an & CV-in-an & CV-an & This means that the entity marked with the absolutive case is the location of the verb.\\ \hline
+  \end{tabularx}
+  \caption{Role affixes present in the game.}
+  \label{tab:roles}
+\end{table}
 
 The simplest task of the players is to avoid the patrolling IP by moving places. This can be done by selecting the MC, marking it as \textit{kami} to include the other Revivers, selecting the verbal root \textit{duman} and using \textit{nag-}, selecting a place like a tile on the map or a building and marking it as \textit{sa}, then making a turn.\\
 
