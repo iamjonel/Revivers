@@ -139,8 +139,8 @@ The absolutibe case corresponds to the focus entity; the ergative and oblique co
   \begin{tabular}{|c|c|c|}
     \hline
     Cases & Personal & Common \\ \hline
-    Absolutive & si & an \\ \hline
-    Ergative & ni & kan \\ \hline
+    Direct & si & an \\ \hline
+    Indirect & ni & kan \\ \hline
     Oblique & ki & sa \\ \hline
   \end{tabular}
   \caption{Entity markers in the game.}
@@ -171,9 +171,8 @@ The aspects of the verb control the duration of the chosen action. They take eff
     \hline
     \multirow{2}{*}{Role of the focused Entity} & \multicolumn{3}{c|}{Affix} & \multirow{2}{*}{Meaning} \\ \cline{2-4}
                                & Perfective & Imperfective & Contemplative & \\ \hline
-    Actor & nag- & nag-CV & ma- & This means that the entity marked with the absolutive case is the actor.\\ \hline
-    Object & -in- & CV-in- & CV-on & This means that the entity marked with the absolutive case is the object or patient of the verb. \\ \hline
-    Locative & -in-an & CV-in-an & CV-an & This means that the entity marked with the absolutive case is the location of the verb.\\ \hline
+    Actor & nag- & nag-CV & ma- & This means that the entity marked with the direct case is the actor.\\ \hline
+    Object & -in- & CV-in- & CV-on & This means that the entity marked with the indirect case is the object or patient of the verb. \\ \hline
   \end{tabularx}
   \caption{Role affixes present in the game.}
   \label{tab:roles}
@@ -316,6 +315,31 @@ The last stage revolves around  the full institutionalization of the language. I
 
 Once the players achived the victory conditions for the eight stage, the game can still continue where the players collect and preserve words from the native language. At thi stage, the language is now ready to conquer other languages.\\
 
+\begin{table}[H]
+  \centering
+  \begin{tabularx}\linewidth{|c|X|p{4cm}|}
+    \hline
+    Stages & Tasks & Features \\ \hline
+    Stage 1: Apprenticeship & Play the tutorial and accomplish the starter grammar lesson & \\ \hline
+    \multicolumn{3}{|c|}{Perfect score in the after-lesson quiz.} \\ \hline
+    Stage 2: Recruitment & Gather food sources. Collect words related to greetings. Explore and talk to civilians. & Imperial Police patrol, Civilian appearance, Fluency rate \\ \hline
+    \multicolumn{3}{|c|}{Recruit a specific number of civilians and maintain their fluency at a certain level.} \\ \hline
+    Stage 3: Strongholds & Collect words related to the following buildings: sari-sari stores, coffee shops/eateries, chapels, sports courts/plazaz, family houses/apartments & Conversion chains, Fiesta, Imperial Visits \\ \hline
+    \multicolumn{3}{|c|}{Produce a number of new speakers from the conversion chains and reclamation of related buildings.} \\ \hline
+    Stage 4: Literacy & Collect words related to the following buildings: community libraries, cultural centers, bookstores/printing shops, study/tutoring places. & Literacy rate, Imperial Visits \\ \hline
+    \multicolumn{3}{|c|}{Achieve and maintain a specific number of literacy and reclamation of related buildings.} \\ \hline
+    Stage 5: Schools & Collect words related to the following buildings: elementary schools, highschools, public school classrooms, training centers for teachers & Imperial Visits \\ \hline
+    \multicolumn{3}{|c|}{Reclamation of the related buildings.} \\ \hline
+    Stage 6: Workplaces & Collect words related to the following buildings: markets/talipapa, rice mills/farms, workshops/factories, offices, transport hubs & Imperial Visits \\ \hline
+    \multicolumn{3}{|c|}{Reclamation of the related buildings.} \\ \hline
+    Stage 7: Government & Collect wrods related to the following buildings: health clinics, local courts, radio stations, barangay halls, community newspapers, tv broadcast stations & Imperial Visits \\ \hline
+    \multicolumn{3}{|c|}{Reclamation fo the related buildings.} \\ \hline
+    Stage 8: Institutional Power & Collect words related to the following buildings: Universities and colleges, research institutes, city hall & Imperium leaving \\ \hline
+  \end{tabularx}
+  \caption{The eight stages present in the game.}
+  \label{tab:Stage progression}
+\end{table}
+
 \subsubsection{Interface}
 
 \subsubsection{Map View}
@@ -356,6 +380,7 @@ Players will have their own dictionaries. They are composed of the words that th
 The combat interface differs depending on combat type:
 \begin{itemize}
 \item Physical Combat: Displays attacking entity, target entity, and available objects for attacks. Includes semantic chaining display.
+  It will done in first person POV. The players will only see theri status bars at the top, and the Imperial guards in at the screen with the building behind them. The bottom part of the sreen will be where words are inputted.  At the side will be the dictionary panel where the players can retrieve objects form their list of nouns.
 \item Translation Battles: Shows foreign words to defend against and input field for players to provide equivalent native words.
 \item Puzzle Combat: Shows puzzle prompts, hints, and submission box for correct solutions.
 \end{itemize}
